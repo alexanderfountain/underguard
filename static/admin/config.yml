@@ -23,8 +23,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: "Path", name: "path", widget: "hidden", default: "/"}
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Intro Image, name: introimage, widget: image},{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Intro Image, name: introimage, widget: image},{label: Heading, name: heading, widget: string}, {label: Sub Heading, name: subheading, widget: text}, {label: Link, name: link, widget: text}]}
           # - label: "Services"
           #   name: "services"
           #   widget: "list"
