@@ -21,10 +21,14 @@ const Header = ({ siteTitle }) => (
       }}>
       <div className="logo" style={{
         fontWeight: 'bold',
-        fontSize: '28px',
-      }}>UNDERGUARD SERVICES</div>
+        fontSize: '26px',
+        fontFamily: 'Poppins, sans-serif',
+        color: '#232525',
+        fontWeight: '700',
+        webkitFontSmoothing: 'antialiased',
+      }}>DIGITAL PRO</div>
       <div style={{
-        flexBasis:'40%',
+        flexBasis:'60%',
       }}>
       <Menu></Menu>
       </div>

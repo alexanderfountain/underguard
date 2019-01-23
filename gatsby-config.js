@@ -13,7 +13,20 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [],
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -29,6 +42,20 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `poppins`,
+          `source sans serif\:300,400,400i,700` // you can also specify font weights and styles
+        ]
+      },
+    },
+    `gatsby-plugin-lodash`,
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

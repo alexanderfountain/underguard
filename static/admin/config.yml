@@ -1,0 +1,37 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/"}
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Intro Image, name: introimage, widget: image},{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+          # - label: "Services"
+          #   name: "services"
+          #   widget: "list"
+          #   fields:
+          #     - label: Icon Text
+          #       name: icontext
+          #       widget: object
+          #       fields:
+          #         - {label: Text, name: text, widget: string}
+          #         - {label: Icon, name: icon, widget: image}
