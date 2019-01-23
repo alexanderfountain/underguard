@@ -18,6 +18,7 @@ const Header = ({ siteTitle }) => (
       <div style={{
         display:'flex',
         justifyContent: 'space-between',
+        alignItems: 'center',
       }}>
       <div className="logo" style={{
         fontWeight: 'bold',

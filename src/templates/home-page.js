@@ -3,12 +3,33 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import Container from '../components/container'
+import * as mixins from '../components/mixins.js'
 
-export const HomePageTemplate = ({ title, intro, services, content, contentComponent }) => {
+const Styledlink = mixins.styledlink
+
+export const HomePageTemplate = ({ intro }) => {
   return (
-<main id="main" className="main">
-  
-tester
+<main id="main" className="main" style={{marginTop:'85px'}}>
+    
+    <section className="hero" style=
+    {{ backgroundImage: `url(${intro.introimage})`,
+    paddingTop:'100px',
+    paddingBottom:'100px',
+    }}
+    >
+    <Container>
+      <h3 style={{margin:'0px'}}>{intro.heading}</h3>
+      <div style={{
+      fontSize:'28px',
+      fontWeight:'300',
+      }}>
+      {intro.subheading}
+      </div>
+      <Styledlink to={intro.link}>CLICK FOR FREE ACCESS</Styledlink>
+      </Container>
+    </section>
+    
   </main>
   )
 }
@@ -31,13 +52,7 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <HomePageTemplate
-        title={post.frontmatter.title}
-        introheading={post.frontmatter.intro.heading}
-        introdescription={post.frontmatter.intro.description}
-        introimage={post.frontmatter.intro.introimage}
         intro={post.frontmatter.intro}
-        services={post.frontmatter.services}
-        content={post.html}
       />
     </Layout>
   )
@@ -56,17 +71,11 @@ export const homePageQuery = graphql`
         slug
       }
       frontmatter {
-        title
         intro{
           heading
-          description
+          subheading
+          link
           introimage
-        }
-        services{
-          icontext{
-            icon
-            text
-          }
         }
       }
     }

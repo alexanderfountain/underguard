@@ -4,8 +4,13 @@ import React from 'react'
 import styled from 'styled-components'
 import * as variable from './variables.js'
 const Nav = styled.nav`
+  ul{
+    margin:0px;
+    padding:0px;
+  }
   li{
     margin-left:25px;
+    margin-bottom:0px;
   }
   a {
     text-decoration: none;
