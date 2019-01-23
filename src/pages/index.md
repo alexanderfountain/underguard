@@ -2,9 +2,9 @@
 templateKey: home-page
 path: /
 intro:
-  heading: Great Experiences
+  heading: USA call centers
   introimage: /assets/front-page-1.jpg
   link: /contact
-  subheading: Build the business of your dreams without making unnecessary mistakes.
+  subheading: Call center outsourcing right here in the USA
 ---
 
