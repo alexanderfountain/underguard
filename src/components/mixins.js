@@ -6,8 +6,7 @@ export const styledlink = styled(Link)`
     color: #fff;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.5px;
     padding: 20px 30px;

@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
+import Footer from './footer'
 import './layout.css';
+import Footercopy from './footercopy';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -20,9 +22,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           {children}
-          <footer>
-            © {new Date().getFullYear()}, Built by 1986.io
-          </footer>
+          <Footer />
+          <Footercopy />
         </div>
       </>
     )}

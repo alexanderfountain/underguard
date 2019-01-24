@@ -16,20 +16,19 @@ export const HomePageTemplate = ({ intro }) => {
     
     <section className="hero" style=
     {{ backgroundImage: `url(${intro.introimage})`,
-    paddingTop:'100px',
-    paddingBottom:'100px',
+    paddingTop:'150px',
+    paddingBottom:'150px',
+    backgroundSize:'cover',
     }}
     >
     <Container>
-      <Fade left>
+      <Fade bottom>
       <Typing>
       <h3 style={{margin:'0px'}}>{intro.heading}</h3>
-      <Typing.Delay ms={1000} />
+      <Typing.Delay ms={3000} />
       <Typing.Backspace count={20} />
-      <h3 style={{margin:'0px'}}>Or we could type this.</h3>
+      <h3 style={{margin:'0px'}}>{intro.heading2}</h3>
       </Typing>
-      </Fade>
-      <Fade left>
       
       <div style={{
       fontSize:'28px',
@@ -37,8 +36,6 @@ export const HomePageTemplate = ({ intro }) => {
       }}>
       {intro.subheading}
       </div>
-      </Fade>
-      <Fade left>
       <Styledlink to={intro.link}>CLICK FOR FREE ACCESS</Styledlink>
       </Fade>
       </Container>
@@ -87,6 +84,7 @@ export const homePageQuery = graphql`
       frontmatter {
         intro{
           heading
+          heading2
           subheading
           link
           introimage

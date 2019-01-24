@@ -24,3 +24,12 @@ button{
   padding:0px;
   margin:0px;
 }
+.footer-red:before{
+  content:'';
+  height:100%;
+  position: absolute;
+  left:-20px;
+  background-color:rgb(232, 85, 85);
+  width: 20px;
+  top: 0px;
+}
