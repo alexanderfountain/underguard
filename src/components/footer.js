@@ -14,7 +14,7 @@ const Footer = () => (
     }}>
 
       <div className="footer-red" style={{
-        flexBasis:'20%',
+        flexBasis:'30%',
         backgroundColor:variable.red,
         padding:'40px 0px',
         position:'relative',
@@ -25,7 +25,7 @@ const Footer = () => (
       <p>555-555-1234</p>
       </div>
       <div style={{
-        flexBasis:'80%',
+        flexBasis:'70%',
         padding:'40px 0px',
         paddingLeft:'20px',
       }}>

@@ -54,6 +54,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-lodash`,
+    `gatsby-plugin-glamor`,
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
     

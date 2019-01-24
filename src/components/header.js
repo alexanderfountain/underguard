@@ -27,9 +27,12 @@ const Header = ({ siteTitle }) => (
         color: '#232525',
         fontWeight: '700',
         webkitFontSmoothing: 'antialiased',
+        flexBasis:'200px',
       }}>DIGITAL PRO</div>
       <div style={{
-        flexBasis:'60%',
+        flexBasis:'calc(60% - 200px)',
+        display:'flex',
+        justifyContent:'flex-end',
       }}>
       <Menu></Menu>
       </div>

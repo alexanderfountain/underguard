@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 import * as variable from './variables.js'
+import Mobilemenu from './mobilemenu'
 const Nav = styled.nav`
   ul{
     margin:0px;
@@ -26,6 +27,9 @@ const Nav = styled.nav`
       color: ${variable.red};
     }
   }
+  @media (max-width: ${variable.tabletWidth}) {
+    display:none;
+  }
 `
 
 const Menu = () => (
@@ -43,6 +47,7 @@ const Menu = () => (
       <li><Link to="#">Contact</Link></li>
     </ul>
     </Nav>
+    <Mobilemenu />
   </div>
     
 )
