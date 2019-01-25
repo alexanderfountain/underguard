@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import Typing from 'react-typing-animation'
 import Container from '../components/container'
+import Form from '../components/form'
 import * as mixins from '../components/mixins.js'
 import Fade from 'react-reveal/Fade'
 import * as variable from '../components/variables'
@@ -44,10 +45,18 @@ export const HomePageTemplate = ({ intro, contact }) => {
     <Container>
       <Fade bottom>
       <Typing>
-      <h3 style={{margin:'0px'}}>{intro.heading}</h3>
+      <h3 style={{ 
+        margin:'0px',
+        color: '#232525',
+      }}>
+      {intro.heading}</h3>
       <Typing.Delay ms={3000} />
       <Typing.Backspace count={20} />
-      <h3 style={{margin:'0px'}}>{intro.heading2}</h3>
+      <h3 style={{
+        margin:'0px',
+        color: '#232525',
+        }}>
+        {intro.heading2}</h3>
       </Typing>
       
       <div style={{
@@ -71,6 +80,7 @@ export const HomePageTemplate = ({ intro, contact }) => {
       <div dangerouslySetInnerHTML={{ __html: contact.contactleft }} />
       </Leftcontact>
       <Rightcontact>
+        <Form>
       <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="contact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
@@ -98,6 +108,7 @@ export const HomePageTemplate = ({ intro, contact }) => {
 									<button type="submit" class="btn btn-submit">Send Message</button>
 								</div>
 							</form>
+          </Form>
       </Rightcontact>
     </Container>
     </section>
