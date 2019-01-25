@@ -3,14 +3,30 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-import Typing from 'react-typing-animation';
+import Typing from 'react-typing-animation'
 import Container from '../components/container'
 import * as mixins from '../components/mixins.js'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
+import * as variable from '../components/variables'
+import styled from 'styled-components'
 
 const Styledlink = mixins.styledlink
 
-export const HomePageTemplate = ({ intro }) => {
+const Leftcontact = styled.div`
+flex-basis:50%;
+border-right:thin solid gray;
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:100%;
+}
+`
+const Rightcontact = styled.div`
+flex-basis:50%;
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:100%;
+}
+`
+
+export const HomePageTemplate = ({ intro, contact }) => {
   return (
 <main id="main" className="main" style={{marginTop:'85px'}}>
     
@@ -40,6 +56,20 @@ export const HomePageTemplate = ({ intro }) => {
       </Fade>
       </Container>
     </section>
+
+    <section id="contact">
+    <Container style={{
+      padding:'150px 20px',
+      display:'flex',
+      flexWrap:'wrap',
+    }}>
+      <Leftcontact>
+  
+      </Leftcontact>
+      <Rightcontact>
+      </Rightcontact>
+    </Container>
+    </section>
     
   </main>
   )
@@ -50,11 +80,7 @@ HomePageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   introheading: PropTypes.string,
-  services: PropTypes.arrayOf(
-    PropTypes.shape({
-      icontext: PropTypes.array,
-    })
-  ),
+
 }
 
 const HomePage = ({ data }) => {
@@ -64,6 +90,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <HomePageTemplate
         intro={post.frontmatter.intro}
+        contact={post.frontmatter.contact}
       />
     </Layout>
   )
@@ -81,6 +108,7 @@ export const homePageQuery = graphql`
       fields {
         slug
       }
+      html
       frontmatter {
         intro{
           heading
@@ -88,6 +116,9 @@ export const homePageQuery = graphql`
           subheading
           link
           introimage
+        }
+        contact{
+          contactleft
         }
       }
     }

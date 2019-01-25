@@ -27,6 +27,7 @@ module.exports = {
         plugins: [],
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

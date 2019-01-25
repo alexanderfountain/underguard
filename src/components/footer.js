@@ -6,7 +6,8 @@ import styled from 'styled-components'
 const Leftfooter = styled.div`
 flex-basis:30%;
 background-color:${variable.red};
-padding:40px 20px;
+padding:40px 0px;
+padding-right:20px;
 position:relative;
 &:before {
   content:'';
