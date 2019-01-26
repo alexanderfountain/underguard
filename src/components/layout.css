@@ -34,11 +34,42 @@ input, select, textarea {
   padding: 20px;
   width: 100%;
 }
-h3{
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: -3px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #232525;
+}
+h1{
+font-size:46px;
+line-height:50px;
+}
+h2{
+  font-size:38px;
+  line-height:42px;
+}
+h3{
+  font-size:32px;
+  line-height:36px;
+}
+h4{
+  font-size:28px;
+  line-height:32px;
+}
+h5{
+  font-size:24px;
+  line-height:28px;
+}
+h6{
+  font-size:20px;
+  line-height:24px;
+}
+.hero h3{
   font-size: 74px;
   line-height:78px;
-  font-weight: 600;
   letter-spacing: -3px;
 }
 button{

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet' 
 import { Link } from 'gatsby'
 import Typing from 'react-typing-animation'
 import Container from '../components/container'
@@ -10,8 +11,17 @@ import * as mixins from '../components/mixins.js'
 import Fade from 'react-reveal/Fade'
 import * as variable from '../components/variables'
 import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
+const element = <FontAwesomeIcon icon={faCoffee} />
 
 const Styledlink = mixins.styledlink
+
+const Styledbutton = mixins.styledbutton
 
 const Leftcontact = styled.div`
 flex-basis:50%;
@@ -21,11 +31,32 @@ padding-right:20px;
 @media (max-width: ${variable.mobileWidth}) {
   flex-basis:100%;
 }
+ul{
+  padding:0px;
+  margin:0px;
+}
+li{
+  list-style:none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+li:before{
+  font-family: 'Font Awesome 5 Free';
+  content:'\f00c';
+  font-weight:900;
+  color:${variable.red};
+  font-size:26px;
+  margin-right:20px;
+}
 `
 const Rightcontact = styled.div`
 flex-basis:50%;
 padding:40px 0px;
 padding-left:20px;
+text-align:center;
 @media (max-width: ${variable.mobileWidth}) {
   flex-basis:100%;
 }
@@ -34,12 +65,19 @@ padding-left:20px;
 export const HomePageTemplate = ({ intro, contact }) => {
   return (
 <main id="main" className="main" style={{marginTop:'85px'}}>
+<Helmet>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    </Helmet>
     
     <section className="hero" style=
     {{ backgroundImage: `url(${intro.introimage})`,
     paddingTop:'150px',
     paddingBottom:'150px',
     backgroundSize:'cover',
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
     }}
     >
     <Container>
@@ -81,31 +119,34 @@ export const HomePageTemplate = ({ intro, contact }) => {
       </Leftcontact>
       <Rightcontact>
         <Form>
+        <h2>Contact</h2>
+        <p>Fill out the form below.</p>
       <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="contact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
 								<div class="form-group">
-									<label for="name" class="lb-name">First Name *</label>
-									<input type="text" name="name" id="name" class="form-control" data-required="true" data-interactive="true" />
+									<input type="text" placeholder="First Name" name="name" id="name" class="form-control" data-required="true" data-interactive="true" />
 								</div>
 								<div class="form-group">
-									<label for="surname" class="lb-surname">Last Name *</label>
-									<input type="text" name="surname" id="surname" class="form-control" data-required="true" data-interactive="true" />
+									<input type="text" name="surname" placeholder="Last Name" id="surname" class="form-control" data-required="true" data-interactive="true" />
 								</div>
 								<div class="form-group">
-									<label for="email" class="lb-email">Email *</label>
-									<input type="email" name="email" id="email" class="form-control" data-required="true" data-interactive="true" />
+									<input type="email" name="email" placeholder="Email" id="email" class="form-control" data-required="true" data-interactive="true" />
 								</div>
 								<div class="form-group">
-									<label for="phone" class="lb-phone">Phone Number</label>
-									<input type="tel" name="phone" id="phone" class="form-control" data-required="false" data-interactive="true" />
+									<input type="tel" name="phone" id="phone" placeholder="Phone Number" class="form-control" data-required="false" data-interactive="true" />
 								</div>
 								<div class="form-group text">
-									<label for="textarea" class="lb-message">Message*</label>
-									<textarea name="textarea" id="textarea" class="textarea form-control" data-required="true" data-trim="true"/>
+									<textarea name="textarea" id="textarea" placeholder="Message" class="textarea form-control" data-required="true" data-trim="true"/>
 								</div>
 								<div>
-									<button type="submit" class="btn btn-submit">Send Message</button>
+									<Styledbutton type="submit" style={{
+                    width:'100%',
+                    marginTop:'0px',
+
+                  }}>
+                  Contact
+                  </Styledbutton>
 								</div>
 							</form>
           </Form>
@@ -122,7 +163,6 @@ HomePageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   introheading: PropTypes.string,
-
 }
 
 const HomePage = ({ data }) => {

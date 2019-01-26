@@ -12,6 +12,7 @@ const Nav = styled.nav`
   li{
     margin-left:25px;
     margin-bottom:0px;
+    text-decoration:none;
   }
   a {
     text-decoration: none;
@@ -23,6 +24,8 @@ const Nav = styled.nav`
     font-size:12px;
     letter-spacing: 0.5px;
     -webkit-font-smoothing: antialiased;
+    text-decoration:none;
+    border-bottom:0px;
     &:hover {
       color: ${variable.red};
     }
