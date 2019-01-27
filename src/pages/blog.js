@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
+import Video from '../videos/meeting.mp4'
 
 
 export default class BlogPage extends React.Component {
@@ -17,6 +18,10 @@ export default class BlogPage extends React.Component {
   	      </Helmet>
         <section className="section">
             <div className="content blog-index-header">
+            <video autoPlay loop>
+            <source src={Video} type="video/mp4" />
+            <h1>Blog</h1>
+            </video>
               <h1 className="has-text-weight-bold is-size-2">Blog</h1>
             </div>
           <div className="container blog-index">
