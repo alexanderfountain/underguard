@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from './components/Layout'
-import Video from './videos/meeting.mp4'
+import Layout from '../components/layout'
+import Video from '../videos/meeting.mp4'
 
 
 export default class BlogPage extends React.Component {
