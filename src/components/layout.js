@@ -5,7 +5,6 @@ import Header from './header'
 import Footer from './footer'
 import './layout.css';
 import Footercopy from './footercopy';
-import PageTransition from 'gatsby-v2-plugin-page-transitions';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,9 +23,7 @@ const Layout = ({ children }) => (
         <div style={{
           overflow: 'hidden',
         }}>
-        <PageTransition>
           {children}
-        </PageTransition>
           <Footer />
           <Footercopy />
         </div>

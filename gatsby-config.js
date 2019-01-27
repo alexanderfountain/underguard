@@ -54,7 +54,6 @@ module.exports = {
         ]
       },
     },
-    `gatsby-v2-plugin-page-transitions`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-glamor`,
     `gatsby-plugin-netlify-cms`,
