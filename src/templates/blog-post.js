@@ -3,20 +3,24 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
+import Container from '../components/container'
+import * as variable from '../components/variables'
+import styled from 'styled-components'
 
 export const BlogPostTemplate = ({
   frontmatter,
   title,
+  image,
 }) => {
   console.log({frontmatter})
   return (
 
     <Layout>
       <section className="section">
-
+      <Container>
       <h1>{title}</h1>
-      <h1>{title}</h1>
-      <h1>{title}</h1>  
+      <div><img src={image} /></div>
+      </Container>
       </section>
       </Layout>
   )

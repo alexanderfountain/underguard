@@ -11,11 +11,11 @@ const Header = ({ siteTitle }) => (
       <div style={{
       backgroundColor:'#ffffff',
       borderBottom: '1px solid transparent',
-      padding: '15px 20px',
+      padding: '10px 20px',
       position: 'fixed',
       top: '0px',
       width: '100%',
-      zIndex: '999'
+      zIndex: '999',
       }}>
 
       <div style={{
@@ -24,10 +24,12 @@ const Header = ({ siteTitle }) => (
         alignItems: 'center',
       }}>
       <div className="logo" style={{
-        flexBasis:'200px',
+        flexBasis:'150px',
       }}><Link to="/" style={{borderBottom:'none',}}><img src={Logo} alt="Underguard logo" style={{
         width:'100%',
         height:'auto',
+        display:'flex',
+        alignItems:'center',
       }} /></Link></div>
       <div style={{
         flexBasis:'calc(60% - 200px)',
