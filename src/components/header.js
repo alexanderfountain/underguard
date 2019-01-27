@@ -10,12 +10,12 @@ const Header = ({ siteTitle }) => (
   <header>
       <div style={{
       backgroundColor:'#ffffff',
-      borderBottom: '1px solid transparent',
       padding: '10px 20px',
       position: 'fixed',
       top: '0px',
       width: '100%',
       zIndex: '999',
+      boxShadow: '0px 1px 2px #ccc',
       }}>
 
       <div style={{
