@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Key Factors With Contact Center Outsourcing part I
 author: Kyle Hannah
-image: /assets/pexels-photo-1661004.jpeg
+image: /assets/cc-alley-resized.jpg
 date: 2019-01-27T00:28:54.883Z
 description: >-
   Call center outsourcing provides a ton of advantages to businesses seeking a
