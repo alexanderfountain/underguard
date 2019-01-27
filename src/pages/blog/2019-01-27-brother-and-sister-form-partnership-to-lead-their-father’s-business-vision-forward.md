@@ -4,7 +4,7 @@ title: >-
   Brother and Sister form partnership to lead their Father’s business Vision
   Forward
 author: Kyle and Kelly Hannah
-image: /assets/casey-headshot-resized.jpg
+image: /assets/casey-headshot-resized-2.jpg
 date: 2019-01-27T23:38:54.290Z
 description: >-
   In just 18 months Underguard Teleservices has expanded to three office
