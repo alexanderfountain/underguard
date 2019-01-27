@@ -9,22 +9,24 @@ intro:
   subheading: Call center outsourcing right here in the USA
 contact:
   contactleft: >-
-    ## Get in touch.
+    ## Call Center Outsourcing
 
 
-    This is where you can ask site visitors to sign up for your weekly
-    newsletter. Be sure to craft copy that converts.
+    Fill out the form to your left to get a Free Quote.
 
 
-    * BUILD YOUR BUSINESS THE SMART WAY
+    Why choose Underguard Teleservices?
 
-    * CREATE MARKETING FUNNELS THAT WORK
 
-    * CRAFT KILLER COPY FOR DIGITAL PRODUCTS
+    * USA Based Call Center Outsourcing at Nearshore Rates
 
-    * LEVERAGE SOCIAL ADVERTISING PLATFORMS
+    * We Believe in Social Responsibility
 
-    * ENTER THE WORDPRESS PREMIUM MARKET
+    * Inbound Call Center Services
+
+    * Outbound Call Center Service
+
+    * Blended Call Center Service
 
 
     Ask them to [subscribe](www.google.om) to discover smarter ways to create
