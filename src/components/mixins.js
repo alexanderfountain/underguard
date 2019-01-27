@@ -17,9 +17,9 @@ export const styledlink = styled(Link)`
     display:inline-block;
     margin:40px 0px;
     text-decoration:none;
-    background-color: ${variable.red};
+    background-color: ${variable.brand1};
   &:hover {
-    color: ${variable.red};
+    color: ${variable.brand1};
     background-color:#ffffff;
   }
 `
@@ -40,7 +40,7 @@ export const styledbutton = styled('button')`
     margin:40px 0px;
     text-decoration:none;
     font-weight:bold;
-    background-color: ${variable.red};
+    background-color: ${variable.brand1};
   &:hover {
     background-color:${variable.darkGray};
   }
