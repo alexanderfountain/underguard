@@ -22,7 +22,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [],
       },
@@ -54,10 +54,11 @@ module.exports = {
         ]
       },
     },
+    `gatsby-v2-plugin-page-transitions`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-glamor`,
-    'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify`, // make sure to keep it last in the array
     
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
