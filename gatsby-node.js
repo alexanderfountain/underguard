@@ -47,13 +47,15 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
+  if(node.frontmatter.contact != null){
+    const markdown = node.frontmatter.contact.contactleft
+    node.frontmatter.contact.contactleft = remark()
+      .use(remarkHTML)
+      .processSync(markdown)
+      .toString();
+  }
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-    // const markdown = node.frontmatter.contact.contactleft
-    // node.frontmatter.contact.contactleft = remark()
-    //   .use(remarkHTML)
-    //   .processSync(markdown)
-    //   .toString();
     createNodeField({
       name: `slug`,
       node,
