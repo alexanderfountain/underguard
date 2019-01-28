@@ -84,7 +84,11 @@ export default class BlogPage extends React.Component {
                     </Link>
                     </BlogTeaserLeft>
                     <BlogTeaserRight>
-                    <div className="blog-teaser-image"><img src={post.frontmatter.image} /></div>
+                    <div className="blog-teaser-image" style={{
+                      textAlign:'center',
+                      }}>
+                      <img src={post.frontmatter.image} />
+                      </div>
                     </BlogTeaserRight>
                   </BlogTeaserContainer>
               ))}

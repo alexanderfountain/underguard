@@ -25,8 +25,7 @@ padding-right:20px;
 `
 const Blogright = styled.div`
 flex-basis:30%;
-padding:0px 0px;
-padding-left:20px;
+padding:40px 0px 0px 20px;
 text-align:center;
 `
 
@@ -51,7 +50,10 @@ export const BlogPostTemplate = ({
         <span className="blog-teaser-author">{author}</span>
       </div>
       <h1 style={{marginTop:'5px'}}>{title}</h1>
-      <div><img src={image} /></div>
+      <div style={{
+        float:'left',
+        padding:'0px 20px 20px 0px',
+      }}><img src={image} /></div>
       <PostContent content={content} />
       </Blogleft>
       <Blogright>
