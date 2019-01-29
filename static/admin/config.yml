@@ -39,9 +39,5 @@ collections:
                 name: icontext
                 widget: object
                 fields:
-                  - {label: Icon, name: icon, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Copy, name: copy, widget: string}
-                  - {label: Link Title, name: linktitle, widget: string}
-                  - {label: Path, name: path, widget: string}
+                  - {label: Content, name: content, widget: markdown}
                   
