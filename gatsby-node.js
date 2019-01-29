@@ -55,14 +55,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
-    if(node.frontmatter){
-      if(node.frontmatter.contact){
+    if(node.frontmatter.path == '/'){
         const markdown = node.frontmatter.contact.contactleft
         node.frontmatter.contact.contactleft = remark()
           .use(remarkHTML)
           .processSync(markdown)
-          .toString();
-      }
+          .toString()
     }
   }
 }

@@ -62,7 +62,7 @@ text-align:center;
 }
 `
 
-export const HomePageTemplate = ({ intro, contact }) => {
+export const HomePageTemplate = ({ intro, contact, services }) => {
   return (
 <main id="main" className="main">
 <Helmet>
@@ -154,6 +154,24 @@ export const HomePageTemplate = ({ intro, contact }) => {
       </Rightcontact>
     </Container>
     </section>
+    <section style={{
+      backgroundColor:'#232525',
+      color:'white',
+      }}>
+      <Container>
+      <div class="caption-holder caption-white">
+						<h2>Services</h2>
+					</div>
+
+					<div class="services-list">
+          {services.map(service => (
+            <div class="services-item">
+
+          </div>
+          ))}
+          </div>
+      </Container>
+    </section>
     
   </main>
   )
@@ -164,6 +182,11 @@ HomePageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   introheading: PropTypes.string,
+  services: PropTypes.arrayOf(
+    PropTypes.shape({
+      icontext: PropTypes.array,
+    })
+  ),
 }
 
 const HomePage = ({ data }) => {
@@ -174,6 +197,7 @@ const HomePage = ({ data }) => {
       <HomePageTemplate
         intro={post.frontmatter.intro}
         contact={post.frontmatter.contact}
+        services={post.frontmatter.services}
       />
     </Layout>
   )
@@ -202,6 +226,11 @@ export const homePageQuery = graphql`
         }
         contact{
           contactleft
+        }
+        services{
+          icontext{
+            content
+          }
         }
       }
     }
