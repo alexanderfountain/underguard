@@ -23,6 +23,27 @@ const Styledlink = mixins.styledlink
 
 const Styledbutton = mixins.styledbutton
 
+const Services = styled.div`
+text-align:center;
+display:flex;
+flex-wrap:wrap;
+padding:75px 0px;
+> div{
+  flex-basis:calc((100% / 3) - 20px);
+  margin-right:30px;
+  &:nth-child(3){
+    margin-right:0px;
+  }
+  i{
+    font-size:65px;
+  }
+  h4{
+    color:white;
+    letter-spacing:2px;
+  }
+}
+`
+
 const Leftcontact = styled.div`
 flex-basis:50%;
 border-right: 1px solid ${variable.lightGray};
@@ -163,13 +184,16 @@ export const HomePageTemplate = ({ intro, contact, services }) => {
 						<h2>Services</h2>
 					</div>
 
-					<div class="services-list">
+					<Services>
           {services.map(service => (
             <div class="services-item">
-
+              <div dangerouslySetInnerHTML={{ __html: service.icontext.icon }} />
+              <h4>{service.icontext.title}</h4>
+              <div>{service.icontext.copy}</div>
+              <div><Styledlink to={service.icontext.path}>{service.icontext.linktitle}</Styledlink></div>
           </div>
           ))}
-          </div>
+          </Services>
       </Container>
     </section>
     
@@ -229,7 +253,11 @@ export const homePageQuery = graphql`
         }
         services{
           icontext{
-            content
+            icon
+            title
+            copy
+            path
+            linktitle
           }
         }
       }
