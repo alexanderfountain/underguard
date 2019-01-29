@@ -34,52 +34,28 @@ contact:
     policy](www.google.com).
 services:
   - icontext:
-      content: >-
-        `<i class="fas fa-edit"></i>`
-
-
-        <i class="fas fa-edit"></i>
-
-
-        ## CONTENT MARKETING
-
-
+      copy: >-
         Understand the basics of building the type of audience that will build
         your business.
-
-
-        [LEARN MORE](/blog)
+      icon: <i class="fas fa-edit"></i>
+      linktitle: LEARN MORE
+      path: /blog
+      title: CONTENT MARKETING
   - icontext:
-      content: >-
-        `<i class="fas fa-unlock-alt"></i>`
-
-
-        <i class="fas fa-unlock-alt"></i>
-
-
-        ## DIGITAL COMMERCE
-
-
+      copy: >-
         Our academy shows you how to create and sell profitable digital products
         & services.
-
-
-        [LEARN MORE](/blog)
+      icon: <i class="fas fa-unlock-alt"></i>
+      linktitle: LEARN MORE
+      path: /blog
+      title: DIGITAL COMMERCE
   - icontext:
-      content: >-
-        `<i class="fas fa-microphone"></i>`
-
-
-        <i class="fas fa-microphone"></i>
-
-
-        ## PODCAST TRAINING
-
-
+      copy: >-
         We'll teach you how to deliver a remarkable podcasting audience
         experience.
-
-
-        [LEARN MORE](/blog)
+      icon: <i class="fas fa-microphone"></i>
+      linktitle: LEARN MORE
+      path: /blog
+      title: PODCAST TRAINING
 ---
 
