@@ -32,5 +32,54 @@ contact:
     Ask them to [subscribe](www.google.om) to discover smarter ways to create
     and sell profitable digital products and services. [Spam-free
     policy](www.google.com).
+services:
+  - icontext:
+      content: >-
+        `<i class="fas fa-edit"></i>`
+
+
+        <i class="fas fa-edit"></i>
+
+
+        ## CONTENT MARKETING
+
+
+        Understand the basics of building the type of audience that will build
+        your business.
+
+
+        [LEARN MORE](/blog)
+  - icontext:
+      content: >-
+        `<i class="fas fa-unlock-alt"></i>`
+
+
+        <i class="fas fa-unlock-alt"></i>
+
+
+        ## DIGITAL COMMERCE
+
+
+        Our academy shows you how to create and sell profitable digital products
+        & services.
+
+
+        [LEARN MORE](/blog)
+  - icontext:
+      content: >-
+        `<i class="fas fa-microphone"></i>`
+
+
+        <i class="fas fa-microphone"></i>
+
+
+        ## PODCAST TRAINING
+
+
+        We'll teach you how to deliver a remarkable podcasting audience
+        experience.
+
+
+        [LEARN MORE](/blog)
 ---
 
