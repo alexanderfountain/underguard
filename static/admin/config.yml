@@ -31,13 +31,17 @@ collections:
           - {label: "Path", name: "path", widget: "hidden", default: "/"}
           - {label: Intro, name: intro, widget: object, fields: [{label: Intro Image, name: introimage, widget: image},{label: Heading, name: heading, widget: string},{label: Heading 2, name: heading2, widget: string}, {label: Sub Heading, name: subheading, widget: text}, {label: Link, name: link, widget: text}]}
           - {label: Contact, name: contact, widget: object, fields: [{label: Contact Left, name: contactleft, widget: markdown}]}
-          # - label: "Services"
-          #   name: "services"
-          #   widget: "list"
-          #   fields:
-          #     - label: Icon Text
-          #       name: icontext
-          #       widget: object
-          #       fields:
-          #         - {label: Text, name: text, widget: string}
-          #         - {label: Icon, name: icon, widget: image}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - label: Icon Text
+                name: icontext
+                widget: object
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Copy, name: copy, widget: string}
+                  - {label: Link Title, name: linktitle, widget: string}
+                  - {label: Path, name: path, widget: string}
+                  

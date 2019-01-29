@@ -149,6 +149,7 @@ export const HomePageTemplate = ({ intro, contact }) => {
                   </Styledbutton>
 								</div>
 							</form>
+              By joining the Digital Pro newsletter, you agree to our Privacy Policy and Community Guidelines. Got questions? Check the FAQ.
           </Form>
       </Rightcontact>
     </Container>
