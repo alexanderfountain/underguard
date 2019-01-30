@@ -35,20 +35,20 @@ contact:
 services:
   - icontext:
       copy: >-
-        Understand the basics of building the type of audience that will build
-        your business.
+        Large part of our mission is to save your company money on it's call
+        center outsourcing strategy
       icon: <i class="fas fa-edit"></i>
       linktitle: LEARN MORE
       path: /blog
-      title: CONTENT MARKETING
+      title: Reduce your Costs
   - icontext:
       copy: >-
-        Our academy shows you how to create and sell profitable digital products
-        & services.
+        We have USA based facilities and capacity to handle your call centers
+        needs
       icon: <i class="fas fa-unlock-alt"></i>
       linktitle: LEARN MORE
       path: /blog
-      title: DIGITAL COMMERCE
+      title: Call Center Outsourcing
   - icontext:
       copy: >-
         We'll teach you how to deliver a remarkable podcasting audience
