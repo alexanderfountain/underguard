@@ -38,6 +38,7 @@ label{
   color: #000000 !important;
   font-weight: 300;
   display:block;
+  margin-bottom:5px;
 }
 input, select{
   display:block;
