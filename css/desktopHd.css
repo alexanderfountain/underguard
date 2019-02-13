@@ -3,9 +3,9 @@
   box-sizing:border-box;
 }
 html, body{
-  background: url("../img/desktop-hd-working-in-a-call-center--rectangle-mask.jpg") !important;
-  background-size: auto !important;
-  background-repeat: repeat !important;
+  background: url("../img/desktop-hd-working-in-a-call-center--rectangle-mask.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color:white;
   font-family: 'Open Sans';
 }
