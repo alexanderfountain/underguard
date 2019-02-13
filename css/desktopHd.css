@@ -1,622 +1,141 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,600,400');
-
-
-.desktophd {
-  width               : 100%;
-  min-width           : 1440px;
-  height              : 100vh;
-  min-height          : 874px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+*{
+  box-sizing:border-box;
 }
-a {
-  text-decoration     : none;
+html, body{
+  background: url("../img/desktop-hd-working-in-a-call-center--rectangle-mask.jpg") !important;
+  background-size: auto !important;
+  background-repeat: repeat !important;
+  color:white;
 }
-div {
-  -webkit-text-size-adjust: none;
+p{
+  font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: left;
+    margin:20px 0px;
 }
-.anima-full-width-a {
-  width               : 100%;
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0px 20px;
 }
-.anima-full-height-a {
-  height              : 100%;
+h2{
+  transform: rotate(0deg);
+  font-family: "Open Sans", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25.0px;
+  color: rgba(19, 163, 63, 1.0);
+  text-align: center;
+  letter-spacing: -0.19px;
+  line-height: 22.0px;
+  text-transform: uppercase;
 }
-div {
-  -webkit-text-size-adjust: none;
+label{
+  font-family: Open Sans;
+  color: #000000 !important;
+  font-weight: 300;
+  display:block;
 }
-.desktophd .workinginacallcenterrectanglemask {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 874px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+input, select{
+  display:block;
+  height: 3em;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 4px;
+  padding: 4px;
 }
-.desktophd .rectangle {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 151px;
-  height              : 544px;
-  width               : 459px;
-  position            : absolute;
-  margin              : 0;
-  left                : 250px;
-  border-radius       : 8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.81;
+.form-group{
+  margin-bottom:20px;
 }
-.desktophd .group3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 793px;
-  height              : 50px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 535px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.hline{
+  height:4px;
+  background-color:white;
+  width:80%;
 }
-.desktophd .group3 .group33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 50px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.hline-bottom{
+  height:4px;
+  background-color:white;
+  width:100%;
 }
-.desktophd .group31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 792px;
-  height              : 50px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 695px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+header .container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.desktophd .group31 .group33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 50px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@media (max-width:680px){
+  header .container{
+    display:block;
+  }
 }
-.desktophd .usaorcanada1877 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : auto;
-  width               : 243px;
-  position            : absolute;
-  margin              : 0;
-  left                : 947px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : right;
-  letter-spacing      : -0.19px;
-  line-height         : 20.0px;
+header{
+  color:white;
+  padding-top:40px;
 }
-.desktophd .unitedkingdom448 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
-  height              : auto;
-  width               : 254px;
-  position            : absolute;
-  margin              : 0;
-  left                : 936px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : right;
-  letter-spacing      : -0.19px;
-  line-height         : 20.0px;
+.btn-submit{
+  background-color: #13a33f;
+    color: #ffffff;
+    width: 100%;
+    display: block;;
+    border-radius: 3px;
+    font-weight: "600";
+    font-family: "Open Sans";
+    padding:20px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    -webkit-writing-mode: none !important;
+    border:0px;
 }
-.desktophd .themosteconomical {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 148px;
-  height              : auto;
-  width               : 302px;
-  position            : absolute;
-  margin              : 0;
-  left                : 790px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : italic;
-  font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.19px;
-  line-height         : 27.0px;
+.btn-submit:hover{
+  background-color:white;
+  color:#13a33f;
 }
-.desktophd .v3copy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 91px;
-  width               : 300px;
-  position            : absolute;
-  margin              : 0;
-  left                : 250px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.content .container{
+  display:flex;
+  justify-content: space-between;
+  padding:40px 20px;
+  flex-wrap: wrap;
 }
-.desktophd .letu2019sgetstartedcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 178px;
-  height              : auto;
-  width               : 382px;
-  position            : absolute;
-  margin              : 0;
-  left                : 294px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 25.0px;
-  color               : rgba(19, 163, 63, 1.0);
-  text-align          : center;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
+.content-left{
+  flex-basis:40%;
+  background-color: #d4ecdb;
+  padding: 1.5em 20px 1.5em 20px;
+  border-radius: 4px;
+  margin-bottom:40px;
 }
-.desktophd .incorporatingbestp {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
-  height              : auto;
-  width               : 404px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.18px;
-  line-height         : 22.0px;
+.content-right{
+  flex-basis:50%;
 }
-.desktophd .partnershipswithus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 315px;
-  height              : auto;
-  width               : 404px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.18px;
-  line-height         : 22.0px;
+@media (max-width:900px){
+  .content-left{
+    flex-basis:48%;
+  }
+  .content-right{
+    flex-basis:48%;
+  }
 }
-.desktophd .leadershipteamofc {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 370px;
-  height              : auto;
-  width               : 404px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.18px;
-  line-height         : 22.0px;
+@media (max-width:750px){
+  .content-left{
+    flex-basis:100%;
+  }
+  .content-right{
+    flex-basis:100%;
+  }
 }
-.desktophd .whatwedoimprovey {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
-  height              : auto;
-  width               : 385px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.13px;
-  line-height         : 12.0px;
+i{
+  color:white;
+  font-size:42px;
 }
-.desktophd .whatwedoimprovey .span1 {
-  line-height         : 22.0px;
+.socialicons{
+  padding:40px 0px;
 }
-.desktophd .whatwedoimprovey .span2 {
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  letter-spacing      : -0.1px;
-  line-height         : 22.0px;
+.socialicons a{
+  padding:0px 40px;
 }
-.desktophd .whatwedoimprovey .span3 {
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  letter-spacing      : -0.1px;
-  line-height         : 22.0px;
-}
-.desktophd .whywedoititall {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 582px;
-  height              : auto;
-  width               : 385px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.13px;
-  line-height         : 12.0px;
-}
-.desktophd .whywedoititall .span1 {
-  line-height         : 22.0px;
-}
-.desktophd .whywedoititall .span2 {
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  letter-spacing      : -0.1px;
-  line-height         : 22.0px;
-}
-.desktophd .whywedoititall .span3 {
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  letter-spacing      : -0.1px;
-  line-height         : 22.0px;
-}
-.desktophd .rectangle1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 241px;
-  height              : 52px;
-  width               : 416px;
-  position            : absolute;
-  margin              : 0;
-  left                : 270px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .rectanglecopy {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 333px;
-  height              : 52px;
-  width               : 416px;
-  position            : absolute;
-  margin              : 0;
-  left                : 270px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .rectanglecopy2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 427px;
-  height              : 52px;
-  width               : 416px;
-  position            : absolute;
-  margin              : 0;
-  left                : 270px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .rectanglecopy3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 517px;
-  height              : 52px;
-  width               : 416px;
-  position            : absolute;
-  margin              : 0;
-  left                : 270px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .name {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 213px;
-  height              : auto;
-  width               : 382px;
-  position            : absolute;
-  margin              : 0;
-  left                : 269px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(44, 55, 57, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
-}
-.desktophd .email {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 305px;
-  height              : auto;
-  width               : 382px;
-  position            : absolute;
-  margin              : 0;
-  left                : 269px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(44, 55, 57, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
-}
-.desktophd .phone {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 399px;
-  height              : auto;
-  width               : 382px;
-  position            : absolute;
-  margin              : 0;
-  left                : 269px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(44, 55, 57, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
-}
-.desktophd .doesyourcompanyou {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 489px;
-  height              : auto;
-  width               : 382px;
-  position            : absolute;
-  margin              : 0;
-  left                : 269px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(44, 55, 57, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
-}
-.desktophd .rectanglecopy1 {
-  background-color    : rgba(19, 163, 63, 1.0);
-  top                 : 602px;
-  height              : 72px;
-  width               : 416px;
-  position            : absolute;
-  margin              : 0;
-  left                : 270px;
-  border-radius       : 8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .submitcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 627px;
-  height              : auto;
-  width               : 420px;
-  position            : absolute;
-  margin              : 0;
-  left                : 267px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 25.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : -0.19px;
-  line-height         : 22.0px;
-}
-.desktophd .line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 755px;
-  height              : 2px;
-  width               : 944px;
-  position            : absolute;
-  margin              : 0;
-  left                : 248px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .linecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 440px;
-  height              : 3px;
-  width               : 404px;
-  position            : absolute;
-  margin              : 0;
-  left                : 788px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .group32 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 792px;
-  height              : 50px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 855px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .group32 .group33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 50px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+.socialicons{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items: center;
 }
