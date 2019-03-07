@@ -1,22 +1,38 @@
 ---
-templateKey: home-page
-path: /
-intro:
-  heading: Top Notch Designs
-  heading2: SEO Marketing Specialist
-  introimage: /assets/front-page-1.jpg
-  link: /contact
-  subheading: Brilliant designs that function like no other.
-contact:
-  contactleft: |-
-    ## Effective Online Presence
+title: index
+templateKey: page
+content:
+  - backgroundimage: /assets/undhero.jpg
+    pagetitle: true
+    sectionid: hero
+    sectiontitle: ''
+    sectionvalue:
+      - markdown: |-
+          Call Center Outsourcing.
 
-    ### Why choose 1986.io?
+          REDEFINED.
 
-    * Stunning designs.
-    * We Believe beauty and functionality.
-    * Seo important to you? Us too.
-    * Reasonable hosting. Really reasonable.
-    * Real humans in America, ready to actually talk to you.
+          * Elevate Customer Experience
+          * 
+
+          Increase Social Responsibility
+
+          * 
+
+          Improve Lifetime Customer Value
+
+          * 100% USA Based Agents
+
+          [LEARN MORE](#)
+        type: markdown
+    textcolor: '#ffffff'
+    type: section
+  - backgroundcolor: '#ffffff'
+    sectionid: freequote
+    sectiontitle: ''
+    sectionvalue:
+      - markdown: My simple markdown in same section
+        type: markdown
+    type: section
 ---
 
