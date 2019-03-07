@@ -28,6 +28,7 @@ const Nav = styled.nav`
     border-bottom:0px;
     &:hover {
       color: ${variable.brand1};
+      text-decoration: line-through;
     }
   }
   @media (max-width: ${variable.tabletWidth}) {
@@ -45,9 +46,8 @@ const Menu = () => (
       justifyContent:'flex-end',
     }}>
       <li><Link to="/">Home</Link></li>
-      <li><Link to="#">About</Link></li>
       <li><Link to="/blog">Blog</Link></li>
-      <li><Link to="#">Contact</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
     </ul>
     </Nav>
     <Mobilemenu />

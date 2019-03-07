@@ -1,15 +1,15 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Container from './container'
+import Container from '../components/layout/container'
 import Menu from './menu'
 
-import Logo from '../images/logo.png'
+import Logo from '../images/logo_no_comp.png'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
       <div style={{
-      backgroundColor:'#ffffff',
+      backgroundColor:'rgba(255, 255, 255, 0.9)',
       padding: '10px 20px',
       position: 'fixed',
       top: '0px',
@@ -18,6 +18,8 @@ const Header = ({ siteTitle }) => (
       boxShadow: '0px 1px 2px #ccc',
       }}>
 
+      <Container>
+
       <div style={{
         display:'flex',
         justifyContent: 'space-between',
@@ -25,7 +27,7 @@ const Header = ({ siteTitle }) => (
       }}>
       <div className="logo" style={{
         flexBasis:'150px',
-      }}><Link to="/" style={{borderBottom:'none',}}><img src={Logo} alt="Underguard logo" style={{
+      }}><Link to="/" style={{borderBottom:'none',}}><img src={Logo} alt="1986 logo" style={{
         width:'100%',
         height:'auto',
         display:'flex',
@@ -39,7 +41,7 @@ const Header = ({ siteTitle }) => (
       <Menu></Menu>
       </div>
       </div>
-
+      </Container>
 
     </div>
 

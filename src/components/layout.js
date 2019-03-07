@@ -20,11 +20,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div style={{
-          overflow: 'hidden',
-          marginTop:'102px',
-        }}>
+        <Header />
+        <div>
         <PageTransition>
           {children}
         </PageTransition>

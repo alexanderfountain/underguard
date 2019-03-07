@@ -1,266 +1,186 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import Helmet from 'react-helmet' 
-import { Link } from 'gatsby'
-import Typing from 'react-typing-animation'
-import Container from '../components/container'
-import Form from '../components/form'
-import * as mixins from '../components/mixins.js'
-import Fade from 'react-reveal/Fade'
-import * as variable from '../components/variables'
-import styled from 'styled-components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import Helmet from "react-helmet";
+import { Link } from "gatsby";
+import Container from "../components/layout/container";
+import * as variable from "../components/variables";
+import styled from "styled-components";
+import SectionContact from "../components/pages/home/section-contact";
+import SectionTypedHero from "../components/organisms/sections/section-typed-hero";
+import SectionBlogs from "../components/pages/home/section-blogs"
 
-
-
-
-const element = <FontAwesomeIcon icon={faCoffee} />
-
-const Styledlink = mixins.styledlink
-
-const Styledbutton = mixins.styledbutton
-
-const Services = styled.div`
-text-align:center;
-display:flex;
-flex-wrap:wrap;
-padding:75px 0px;
-> div{
-  flex-basis:calc((100% / 3) - 20px);
-  margin-right:30px;
-  &:nth-child(3){
-    margin-right:0px;
+const BlogTeaserContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0px;
+  border-bottom: thin solid #eee;
+  @media (max-width: ${variable.mobileWidth}) {
+    flex-direction: column-reverse;
   }
-  i{
-    font-size:65px;
+`;
+const BlogTeaserLeft = styled.div`
+  flex-basis: calc(50% - 20px);
+  @media (max-width: ${variable.mobileWidth}) {
+    flex-basis: calc(100%);
   }
-  h4{
-    color:white;
-    letter-spacing:2px;
+`;
+const BlogTeaserRight = styled.div`
+  flex-basis: calc(50% - 20px);
+  @media (max-width: ${variable.mobileWidth}) {
+    flex-basis: calc(100%);
   }
-}
-`
+`;
 
-const Leftcontact = styled.div`
-flex-basis:50%;
-border-right: 1px solid ${variable.lightGray};
-padding:40px 0px;
-padding-right:20px;
-@media (max-width: ${variable.mobileWidth}) {
-  flex-basis:100%;
-}
-ul{
-  padding:0px;
-  margin:0px;
-}
-li{
-  list-style:none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-li:before{
-  font-family: 'Font Awesome 5 Free';
-  content:'\f00c';
-  font-weight:900;
-  color:${variable.brand1};
-  font-size:26px;
-  margin-right:20px;
-}
-`
-const Rightcontact = styled.div`
-flex-basis:50%;
-padding:40px 0px;
-padding-left:20px;
-text-align:center;
-@media (max-width: ${variable.mobileWidth}) {
-  flex-basis:100%;
-}
-`
 
-export const HomePageTemplate = ({ intro, contact, services }) => {
+export const HomePageTemplate = ({ intro, contact, blogs }) => {
+  console.log(blogs);
   return (
-<main id="main" className="main">
-<Helmet>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-    </Helmet>
-    
-    <section className="hero" style=
-    {{ backgroundImage: `url(${intro.introimage})`,
-    paddingTop:'150px',
-    paddingBottom:'150px',
-    backgroundSize:'cover',
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    }}
-    >
-    <Container>
-      <Fade bottom>
-      <Typing>
-      <h3 style={{ 
-        margin:'0px',
-        color: '#232525',
-      }}>
-      {intro.heading}</h3>
-      <Typing.Delay ms={3000} />
-      <Typing.Backspace count={20} />
-      <h3 style={{
-        margin:'0px',
-        color: '#232525',
-        }}>
-        {intro.heading2}</h3>
-      </Typing>
+    <main id="main" className="main">
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+          crossorigin="anonymous"
+        />
+        <meta charSet="utf-8" />
+        <title>1986.io | Home</title>
+        <link rel="canonical" href="https://1986.io" />
+      </Helmet>
+
+      <SectionTypedHero
+      introfirst={intro.heading}
+      introsecond={intro.heading2}
+      bgimage={intro.introimage}
+      subheading={intro.subheading}
+      buttonlink={intro.link}
+      buttontext="Let's Chat!"
+      >
+      </SectionTypedHero>
+
+
+      <SectionContact leftcontact={contact.contactleft}></SectionContact>
       
-      <div style={{
-      fontSize:'28px',
-      fontWeight:'300',
-      }}>
-      {intro.subheading}
-      </div>
-      <Styledlink to={intro.link}>CLICK FOR FREE ACCESS</Styledlink>
-      </Fade>
-      </Container>
-    </section>
+      <SectionBlogs>
 
-    <section id="contact">
-    <Container style={{
-      padding:'0px 20px',
-      display:'flex',
-      flexWrap:'wrap',
-    }}>
-      <Leftcontact>
-      <div dangerouslySetInnerHTML={{ __html: contact.contactleft }} />
-      </Leftcontact>
-      <Rightcontact>
-        <Form>
-        <h2>Contact</h2>
-        <p>Fill out the form below.</p>
-      <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-			<input type="hidden" name="form-name" value="contact" />
-			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
-								<div class="form-group">
-									<input type="text" placeholder="First Name" name="name" id="name" class="form-control" data-required="true" data-interactive="true" />
-								</div>
-								<div class="form-group">
-									<input type="text" name="surname" placeholder="Last Name" id="surname" class="form-control" data-required="true" data-interactive="true" />
-								</div>
-								<div class="form-group">
-									<input type="email" name="email" placeholder="Email" id="email" class="form-control" data-required="true" data-interactive="true" />
-								</div>
-								<div class="form-group">
-									<input type="tel" name="phone" id="phone" placeholder="Phone Number" class="form-control" data-required="false" data-interactive="true" />
-								</div>
-								<div class="form-group text">
-									<textarea name="textarea" id="textarea" placeholder="Message" class="textarea form-control" data-required="true" data-trim="true"/>
-								</div>
-								<div>
-									<Styledbutton type="submit" style={{
-                    width:'100%',
-                    marginTop:'0px',
-
-                  }}>
-                  Contact
-                  </Styledbutton>
-								</div>
-							</form>
-              By joining the Digital Pro newsletter, you agree to our Privacy Policy and Community Guidelines. Got questions? Check the FAQ.
-          </Form>
-      </Rightcontact>
-    </Container>
-    </section>
-    <section style={{
-      backgroundColor:'#232525',
-      color:'white',
-      }}>
-      <Container>
-      <div class="caption-holder caption-white">
-						<h2>Services</h2>
-					</div>
-
-					<Services>
-          {services.map(service => (
-            <div class="services-item">
-              <div dangerouslySetInnerHTML={{ __html: service.icontext.icon }} />
-              <h4>{service.icontext.title}</h4>
-              <div>{service.icontext.copy}</div>
-              <div><Styledlink to={service.icontext.path}>{service.icontext.linktitle}</Styledlink></div>
-          </div>
+      </SectionBlogs>
+      {/* <section>
+        <Container className="container blog-index">
+          {blogs.edges.map(({ node: post }) => (
+            <BlogTeaserContainer className="content" key={post.id}>
+              <BlogTeaserLeft>
+                <div className="who">
+                  <span className="blog-date">{post.frontmatter.date} / </span>
+                  <span className="blog-teaser-author">
+                    {post.frontmatter.author}
+                  </span>
+                </div>
+                <h2 style={{ marginTop: "5px" }}>
+                  <Link
+                    className="has-text-primary"
+                    to={post.fields.slug}
+                    style={{ borderBottom: "0px" }}
+                  >
+                    {post.frontmatter.title}
+                  </Link>
+                </h2>
+                <div className="teaser-body">
+                  {post.frontmatter.description}
+                </div>
+                <Link className="btn blog-btn" to={post.fields.slug}>
+                  Read Full Article
+                </Link>
+              </BlogTeaserLeft>
+              <BlogTeaserRight>
+                <div
+                  className="blog-teaser-image"
+                  style={{
+                    textAlign: "center"
+                  }}
+                >
+                  <img src={post.frontmatter.image} />
+                </div>
+              </BlogTeaserRight>
+            </BlogTeaserContainer>
           ))}
-          </Services>
-      </Container>
-    </section>
-    
-  </main>
-  )
-}
+        </Container>
+      </section> */}
+    </main>
+  );
+};
 
-HomePageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-  introheading: PropTypes.string,
-  services: PropTypes.arrayOf(
-    PropTypes.shape({
-      icontext: PropTypes.array,
-    })
-  ),
-}
+// HomePageTemplate.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   content: PropTypes.string,
+//   contentComponent: PropTypes.func,
+//   introheading: PropTypes.string,
+// }
 
 const HomePage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { home: post, blogs: blogpost } = data;
 
+  // console.log('data' + blogpost)
   return (
     <Layout>
       <HomePageTemplate
         intro={post.frontmatter.intro}
         contact={post.frontmatter.contact}
-        services={post.frontmatter.services}
+        blogs={blogpost}
       />
     </Layout>
-  )
-}
+  );
+};
 
 HomePage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default HomePage
+export default HomePage;
 
 export const homePageQuery = graphql`
   query HomePage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    home: markdownRemark(id: { eq: $id }) {
       fields {
         slug
       }
       html
       frontmatter {
-        intro{
+        intro {
           heading
           heading2
           subheading
           link
           introimage
         }
-        contact{
+        contact {
           contactleft
         }
-        services{
-          icontext{
-            icon
+      }
+    }
+    blogs: allMarkdownRemark(
+      limit: 3
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            description
             title
-            copy
-            path
-            linktitle
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+            image
+            author
           }
         }
       }
     }
   }
-`
+`;

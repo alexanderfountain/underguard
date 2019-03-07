@@ -3,15 +3,14 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-import Container from '../components/container'
+import Container from '../components/layout/container'
 import * as variable from '../components/variables'
 import styled from 'styled-components'
 import { HTMLContent } from '../components/Content'
 import Form from '../components/form'
-import * as mixins from '../components/mixins.js'
+import Styledbutton from "../components/atoms/link"
 
 
-const Styledbutton = mixins.styledbutton
 
 const Blogfullcontainer = styled.div`
 display:flex;
@@ -22,11 +21,22 @@ justify-content:space-between;
 const Blogleft = styled.div`
 flex-basis:70%;
 padding-right:20px;
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:calc(100%);
+  padding:0px;
+}
 `
 const Blogright = styled.div`
 flex-basis:30%;
-padding:40px 0px 0px 20px;
+padding:0px 0px 0px 20px;
 text-align:center;
+h6{
+  margin:10px 0px 20px 0px;
+}
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:calc(100%);
+  padding:0px;
+}
 `
 
 export const BlogPostTemplate = ({
@@ -36,38 +46,40 @@ export const BlogPostTemplate = ({
   content,
   date,
   author,
+  slug,
 }) => {
   const PostContent = contentComponent
+  const canonical = `https://1986.io${slug}`
   return (
 
     <Layout>
+
+<Helmet>
+      <meta charSet="utf-8" />
+      <title>1986.io | {title}</title>
+      <link rel="canonical" href={canonical}></link>
+      </Helmet>
       <section className="section" style={{paddingBottom:'40px'}}>
       <Container>
-      <Blogfullcontainer style={{marginTop:'40px'}}>
+      <Blogfullcontainer style={{marginTop:'135px'}}>
       <Blogleft>
-      <div className="who">
+      <h1 style={{marginTop:'5px'}}>{title}</h1>
+      <div className="who" style={{marginBottom:'20px'}}>
         <span className="blog-date">{date} / </span> 
         <span className="blog-teaser-author">{author}</span>
       </div>
-      <h1 style={{marginTop:'5px'}}>{title}</h1>
-      <div style={{
-        float:'left',
-        padding:'0px 20px 20px 0px',
-      }}><img src={image} /></div>
+      <div><img src={image} /></div>
       <PostContent content={content} />
       </Blogleft>
       <Blogright>
-      <Form>
+      <Form style={{position:'sticky', top:'145px'}}>
         <h6>Contact Us</h6>
         <p>Fill out the form below.</p>
       <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="contact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
 								<div class="form-group">
-									<input type="text" placeholder="First Name" name="name" id="name" class="form-control" data-required="true" data-interactive="true" />
-								</div>
-								<div class="form-group">
-									<input type="text" name="surname" placeholder="Last Name" id="surname" class="form-control" data-required="true" data-interactive="true" />
+									<input type="text" placeholder="Name" name="name" id="name" class="form-control" data-required="true" data-interactive="true" />
 								</div>
 								<div class="form-group">
 									<input type="email" name="email" placeholder="Email" id="email" class="form-control" data-required="true" data-interactive="true" />
@@ -79,13 +91,9 @@ export const BlogPostTemplate = ({
 									<textarea name="textarea" id="textarea" placeholder="Message" class="textarea form-control" data-required="true" data-trim="true"/>
 								</div>
 								<div>
-									<Styledbutton type="submit" style={{
-                    width:'100%',
-                    marginTop:'0px',
-
-                  }}>
+									{/* <Styledlink text="Contact">
                   Contact
-                  </Styledbutton>
+                  </Styledbutton> */}
 								</div>
 							</form>
           </Form>
@@ -103,6 +111,7 @@ BlogPostTemplate.propTypes = {
   image: PropTypes.string,
   date: PropTypes.string,
   author: PropTypes.string,
+  slug: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -117,6 +126,7 @@ const BlogPost = ({ data }) => {
         image={post.frontmatter.image}
         date={post.frontmatter.date}
         author={post.frontmatter.author}
+        slug={post.fields.slug}
       />
   )
 }
@@ -134,6 +144,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields{
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

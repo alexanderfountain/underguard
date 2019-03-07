@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Video from '../videos/meeting.mp4'
-import Container from '../components/container'
+import Container from '../components/layout/container'
 import * as variable from '../components/variables'
 import styled from 'styled-components'
 
@@ -12,15 +12,23 @@ const BlogTeaserContainer = styled.div`
 display:flex;
 flex-wrap:wrap;
 justify-content:space-between;
-padding:100px 0px;
+padding:50px 0px;
 border-bottom: thin solid #eee;
+@media (max-width: ${variable.mobileWidth}) {
+  flex-direction: column-reverse;
+}
 `
 const BlogTeaserLeft = styled.div`
 flex-basis:calc(50% - 20px);
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:calc(100%);
+}
 `
 const BlogTeaserRight = styled.div`
-flex-basis:50%;
 flex-basis:calc(50% - 20px);
+@media (max-width: ${variable.mobileWidth}) {
+  flex-basis:calc(100%);
+}
 `
 export default class BlogPage extends React.Component {
   render() {
@@ -29,6 +37,11 @@ export default class BlogPage extends React.Component {
 
     return (
       <Layout>
+              <Helmet>
+      <meta charSet="utf-8" />
+      <title>1986.io | Blog</title>
+      <link rel="canonical" href="https://1986.io/blog"></link>
+      </Helmet>
         <section className="section">
             <div className="content blog-index-header" style={{
               position:'relative',
@@ -52,8 +65,8 @@ export default class BlogPage extends React.Component {
             }}>
             <h1>Blog</h1>
 
-            <p style={{marginBottom:'0px'}}>This is a sample category description, which can be used to boost your SEO rankings.</p>
-            <p style={{marginTop:'0px'}}>Make sure you have this enabled from the Edit Category screen in your dashboard.</p>
+            <p style={{marginBottom:'0px'}}>Blog posts about ReactJS, Drupal, and more!</p>
+            <p style={{marginTop:'0px'}}>Check back often.</p>
 
             </Container>
             </div>
