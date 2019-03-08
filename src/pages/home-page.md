@@ -4,7 +4,7 @@ templateKey: page
 content:
   - backgroundimage: /assets/undherotran.png
     pagetitle: true
-    sectionid: hero
+    sectionid: heros
     sectiontitle: ''
     sectionvalue:
       - markdown: |-
