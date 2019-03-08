@@ -2,7 +2,7 @@
 title: index
 templateKey: page
 content:
-  - backgroundimage: /assets/undhero.jpg
+  - backgroundimage: /assets/undherotran.png
     pagetitle: true
     sectionid: hero
     sectiontitle: ''
