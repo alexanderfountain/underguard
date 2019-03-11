@@ -23,6 +23,7 @@ export const PageTemplate = ({ title, content }) => {
       {content.map(( section, index ) => (
         <Section
         section={section}
+        key={index}
         >
         </Section>
       ))}
