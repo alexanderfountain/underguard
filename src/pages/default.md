@@ -3,6 +3,7 @@ title: Default
 templateKey: page
 content:
   - backgroundcolor: '#ffffff'
+    backgroundimage: /assets/front-page-1.jpg
     sectionid: default
     sectiontitle: Default
     sectionvalue:
