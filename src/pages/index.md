@@ -1,38 +1,52 @@
 ---
-title: index
+title: Home Page
 templateKey: page
 content:
-  - backgroundimage: /assets/undherotran.png
+  - backgroundimage: /assets/front-page-1.jpg
     pagetitle: true
-    sectionid: heros
-    sectiontitle: ''
+    sectionid: hero
+    sectiontitle: Home Page Section Title
     sectionvalue:
-      - markdown: |-
-          Call Center Outsourcing.
+      - markdown: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum cur
+          ista res digna odio est, nisi quod est turpis? _Cum salvum_ esse
+          flentes sui respondissent, rogavit essentne fusi hostes. Sed ea mala
+          virtuti [magnitudine](http://www.google.com) obruebantur. Graecum enim
+          hunc versum nostis omnes-: **Suavis laborum est praeteritorum
+          memoria.** Qui enim voluptatem ipsam contemnunt, iis licet dicere se
+          acupenserem maenae non anteponere. Ut optime, secundum naturam
+          affectum esse possit.
 
-          REDEFINED.
 
-          * Elevate Customer Experience
-          * 
+          > Ne seges quidem igitur spicis uberibus et crebris, si avenam uspiam
+          videris, nec mercatura quaestuosa, si in maximis lucris paulum aliquid
+          damni contraxerit.
 
-          Increase Social Responsibility
 
-          * 
+          _Sed et illum, quem nominavi, et ceteros sophistas, ut e Platone
+          intellegi potest, lusos videmus a Socrate._
 
-          Improve Lifetime Customer Value
 
-          * 100% USA Based Agents
+          _Quando enim Socrates, qui parens philosophiae iure dici potest,
+          quicquam tale fecit?_
 
-          [LEARN MORE](#)
+
+          * Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud
+          negotii nihil habemus.
+
+          * Duo Reges: constructio interrete.
+
+          * Eiuro, inquit adridens, iniquum, hac quidem de re;
+
+          * Quo tandem modo?
         type: markdown
-    textcolor: '#ffffff'
     type: section
-  - backgroundcolor: '#ffffff'
-    sectionid: freequote
-    sectiontitle: ''
+  - backgroundcolor: '#cccccc'
+    sectionid: bloglist
+    sectiontitle: Recent Blogs
     sectionvalue:
-      - markdown: My simple markdown in same section
-        type: markdown
+      - type: bloglist
+    textcolor: '#000000'
     type: section
 ---
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import Header from './header'
-import Footer from './footer'
+import Header from '../regions/header'
+import Footer from '../regions/footer'
 import './layout.css';
-import Footercopy from './footercopy';
+import Footercopy from '../regions/footercopy';
 import PageTransition from 'gatsby-v2-plugin-page-transitions';
 
 const Layout = ({ children }) => (
@@ -14,13 +14,17 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            logo
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header />
+        <Header 
+        siteTitle={data.site.siteMetadata.title} 
+        logo={data.site.siteMetadata.logo}
+        />
         <div>
         <PageTransition>
           {children}
