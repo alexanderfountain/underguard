@@ -7,8 +7,7 @@ const SectionStyle = styled.section`
   padding-top: 150px;
   padding-bottom: 50px;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   min-height: 400px;
   background-image: url(${props => props.backgroundimage});

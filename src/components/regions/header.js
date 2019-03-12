@@ -5,43 +5,48 @@ import Container from '../layout/container'
 import Menu from '../menu'
 import styled from "styled-components"
 import logo from "../../images/underlogo.png"
+import * as variable from '../variables'
 
 const HeaderStyle = styled.header`
-  background-color:rgba(255, 255, 255, 0.9);
-  padding: 10px 20px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 999;
-  box-shadow: 0px 1px 2px #ccc;
+  display:flex;
+  justify-content:center;
   .header-menu-logo{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color:${variable.darkGray};
+    position:fixed;
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;  
+    z-index:100;
   }
-  .logo{
-    flex-basis:150px;
-    border-bottom:none;
-    img{
-      width:100%;
-      height:auto;
-      display:flex;
-      align-items:center;
-    }
-  }
-  nav{
-    flex-basis:calc(60% - 200px);
+  .logo-menu-below{
+    position:absolute;
+    top:100px;
     display:flex;
-    justify-content:flex-end;
+    width:100%;
+    .logo{
+      flex-basis:150px;
+      border-bottom:none;
+      img{
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:center;
+      }
+    }
   }
 `;
 
 const Header = () => (
   <HeaderStyle>
       <Container className="header-menu-logo">
-      <Link className="logo"to="/"><img src={logo} alt="logo" /></Link>
       <Menu>
       </Menu>
+      </Container>
+      <Container className="logo-menu-below">
+      <Link className="logo"to="/"><img src={logo} alt="logo" /></Link>
       </Container>
   </HeaderStyle>
 )

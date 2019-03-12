@@ -1,5 +1,4 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -11,16 +10,22 @@ const Nav = styled.nav`
     padding:0px;
     list-style:none;
     display:flex;
-    justify-content:flex-end;
+    justify-content:space-between;
   }
   li{
     margin-left:25px;
     margin-bottom:0px;
     text-decoration:none;
+    &.number{
+      color:${variable.brand1};
+      a{
+        color:${variable.brand1};
+      }
+    }
   }
   a {
     text-decoration: none;
-    color: ${variable.darkGray};
+    color: #ffffff;
     font-weight: 600;
     transition: all 0.2s;
     font-family:Poppins, sans-serif;
@@ -62,6 +67,7 @@ const Menu = () => (
       {data.site.siteMetadata.menuLinks.map((menuitem, index) =>(
         <li key={index}><Link to={menuitem.link}>{menuitem.name}</Link></li>
       ))}
+      <li class="number">US. CA. <a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
     </ul>
     </Nav>
     <Mobilemenu />

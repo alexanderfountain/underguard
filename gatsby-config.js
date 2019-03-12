@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `1986`,
-    description: `Screaming fast sites.`,
-    siteUrl: `https://1986.io`,
+    title: `Underguard Teleservices`,
+    description: `Underguard Teleservices Description.`,
+    siteUrl: `https://staging.underguard.netlify.com`,
     author: `@alexanderfountain`,
     logo: `/src/images/logo_no_comp.png`,
     menuLinks:[
@@ -11,12 +11,24 @@ module.exports = {
          link:'/'
       },
       {
-         name:'blog',
-         link:'/blog'
+         name:'services',
+         link:'#'
       },
       {
-         name:'contact',
-         link:'/contact'
+         name:'industries',
+         link:'#'
+      },
+      {
+        name:'about us',
+        link:'#'
+      },
+      {
+        name:'case study',
+        link:'#'
+      },
+      {
+        name:'blog',
+        link:'/blog'
       }
     ],
   },
