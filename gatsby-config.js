@@ -135,9 +135,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `poppins\:300,400,400i,700`,
-          `sans serif\:300,400,400i,700`,
-          `lora\:300,400,400i,700`,
+          `Montserrat\:300,400,400i,700`,
         ]
       },
     },
