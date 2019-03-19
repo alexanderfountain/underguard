@@ -3,11 +3,16 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/layout/layout";
 import Section from "../components/organisms/sections/section"
+import Helmet from 'react-helmet'
 
 export const PageTemplate = ({ title, content }) => {
 
   return (
+    
     <main id="main" className="main">
+      <Helmet>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+      </Helmet>
       {content.map(( section, index ) => (
         
         <Section
@@ -23,8 +28,6 @@ export const PageTemplate = ({ title, content }) => {
 
 const Page = ({ data }) => {
   const { markdownRemark: post } = data;
-
- 
   return (
     <Layout>
       <PageTemplate

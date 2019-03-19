@@ -4,7 +4,7 @@ import Container from "../../layout/container";
 import SectionType from "../sections/section-type"
 
 const SectionStyle = styled.section`
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 50px;
   background-size: cover;
   background-position: bottom;

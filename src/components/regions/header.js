@@ -26,14 +26,37 @@ const HeaderStyle = styled.header`
     top:100px;
     display:flex;
     width:100%;
+    justify-content:space-between;
+    align-items:center;
     .logo{
-      flex-basis:150px;
+      flex-basis:255px;
       border-bottom:none;
       img{
         width:100%;
         height:auto;
         display:flex;
         align-items:center;
+      }
+    }
+  }
+  .right-logo-menu{
+    ul{
+      display:flex;
+      padding:0px;
+      margin:0px;
+      li{
+        margin-left:40px;
+        list-style:none;
+        a{
+          color:white;
+          text-decoration:none;
+          border-bottom:0px;
+          &.button-white-border{
+            border:2px solid #ffffff;
+            border-radius:25px;
+            padding:10px 30px;
+          }
+        }
       }
     }
   }
@@ -47,6 +70,16 @@ const Header = () => (
       </Container>
       <Container className="logo-menu-below">
       <Link className="logo"to="/"><img src={logo} alt="logo" /></Link>
+      <div class="right-logo-menu">
+      <ul>
+        <li>
+          <a href="#">CONTACT</a>
+        </li>
+        <li>
+          <a class="button-white-border" href="#">FREE QUOTE</a>
+        </li>
+      </ul>
+      </div>
       </Container>
   </HeaderStyle>
 )
