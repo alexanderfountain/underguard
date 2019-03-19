@@ -19,9 +19,12 @@ content:
         type: markdown
     textcolor: '#ffffff'
     type: section
-  - sectionvalue:
+  - sectionid: homecontact
+    sectionvalue:
       - markdown: "![Phone](/assets/phone_icon.png \"Phone\")\n\n### REDEFINED\n\n#### Call Center Outsourcing.\n\nLorem ipsum dolor sit amet, \x03consectetur adipiscing elit. Maecenas est sem pulvinar in ultrices sit amet, vestibulum sit amet lorem."
         type: markdown
+      - markdown: FREE QUOTE
+        type: form
     type: section
 ---
 
