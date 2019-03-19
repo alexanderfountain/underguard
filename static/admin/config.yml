@@ -51,6 +51,9 @@ collections:
               {label: "Markdown", name: "markdown", widget: "object", fields: [
                 {label: "Markdown", name: "markdown", widget: "markdown"}
               ]},
+              {label: "Form", name: "form", widget: "object", fields: [
+                {label: "Markdown", name: "markdown", widget: "markdown"}
+              ]},
               {label: "Blog List", name: "bloglist", widget: "object", description: "List of blog teasers will be rendered.", fields: [
              ]} 
             ]}
