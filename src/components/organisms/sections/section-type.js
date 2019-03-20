@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import SectionMarkdown from "../sections/section-markdown"
 import BlogList from "../sections/section-bloglist"
+import SectionForm from "../sections/section-form"
 
 const SectionType = ({object}) => {
  
@@ -11,7 +12,9 @@ const SectionType = ({object}) => {
     object={object}
     ></SectionMarkdown>;
     case 'bloglist':
-    return <BlogList></BlogList>
+    return <BlogList></BlogList>;
+    case 'form':
+    return <SectionForm></SectionForm>;
   }
   return(
     null

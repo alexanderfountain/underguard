@@ -4,7 +4,7 @@ import Container from "../../layout/container";
 import SectionType from "../sections/section-type"
 
 const SectionStyle = styled.section`
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 50px;
   background-size: cover;
   background-position: bottom;
@@ -30,8 +30,9 @@ const Section = ({section}) => {
       backgroundcolor={section.backgroundcolor}
       color={section.textcolor}
       >
-      <Container>
-      <h2>{section.sectiontitle}</h2>
+      <Container className="section-container">
+      {section.sectiontitle != null && <h2>{section.sectiontitle}</h2>}
+      <div className="section-value-container">
       {section.sectionvalue.map(( sectionvalue, index ) => (
         <SectionType 
           key={index}
@@ -39,6 +40,7 @@ const Section = ({section}) => {
           >
         </SectionType>
       ))}
+      </div>
       </Container>
     </SectionStyle>
   )

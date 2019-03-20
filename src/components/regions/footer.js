@@ -2,86 +2,90 @@ import React from 'react'
 import Container from '../../components/layout/container'
 import * as variable from '../variables.js'
 import styled from 'styled-components'
-const Leftfooter = styled.div`
-flex-basis:30%;
-background-color:${variable.brand3};
-padding:40px 0px;
-padding-right:20px;
+import { Link } from 'gatsby'
+import FooterMenu from '../footermenu'
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
+const FooterStyle = styled.footer`
 position:relative;
-p{
-  margin:5px 0px;
+background-color: ${variable.darkGray};
+padding:50px 0px;
+width:110%;
+top:-5%;
+left:-5%;
+transform:rotate(-1deg);
+.footer-container{
+  transform:rotate(1deg);
 }
-h4{
-  margin:0px;
+.footer-top-container{
+  padding-bottom:60px;
+  border-bottom:1px solid ${variable.gray};
+  margin-bottom:60px;
 }
-&:before {
-  content:'';
-  height:100%;
-  position: absolute;
-  left:-2000px;
-  background-color:${variable.brand3};
-  width: 2000px;
-  top: 0px;
-}
-@media (max-width: ${variable.tabletWidth}) {
-  flex-basis:40%;
-}
-@media (max-width: ${variable.mobileWidth}) {
-  flex-basis:100%;
-  padding-left:0px;
-  padding-right:0px;
-  &:after {
-    content:'';
-    height:100%;
-    position: absolute;
-    right:-2000px;
-    background-color:${variable.brand3};
-    width: 2000px;
-    top: 0px;
+.footer-bottom-container{
+  ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
   }
-}
-`
-const Rightfooter = styled.div`
-flex-basis:70%;
-padding:40px 0px;
-position:relative;
-padding-left:20px;
-color:white;
-h4{
-  color:white;
-  margin:0px;
-}
-@media (max-width: ${variable.tabletWidth}) {
-  flex-basis:60%;
-}
-@media (max-width: ${variable.mobileWidth}) {
-  flex-basis:100%;
-  padding-left:0px;
-  padding-right:0px;
+  li{
+    margin-bottom:0px;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    &.number{
+      color:${variable.brand1};
+      a{
+        color:${variable.brand1};
+        margin-left:20px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    transition: all 0.2s;
+    font-family:Montserrat, sans-serif; 
+    text-transform:uppercase;
+    font-size:16px;
+    letter-spacing: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-decoration:none;
+    border-bottom:0px;
+    display: flex;
+    align-items: center;
+    &:hover {
+      color: ${variable.brand1};
+    }
+  }
+  svg{
+    font-size:22px;
+  }
 }
 `
 
 const Footer = () => (
-  <footer style={{
-    backgroundColor:variable.darkGray,
-    overflow:'hidden',
-    }}>
-    <Container style={{
-      display:'flex',
-      flexWrap:'wrap',
-    }}>
-      <Leftfooter>
-      <h4>CONTACT US</h4>
-      <p>P.O Box 478</p>
-      <p>Minneapolis, MN 54456</p>
-      <p>651-399-3333</p>
-      </Leftfooter>
-      <Rightfooter>
-      <h4>ABOUT US</h4>
-      <p>Underguard</p>
-      </Rightfooter>
+  <FooterStyle>
+    <Container className="footer-container">
+      <div className="footer-top-container">
+    <FooterMenu className="footer-menu">
+    </FooterMenu>
+    </div>
+    <div className="footer-bottom-container">
+    <ul>
+      <li className="number"><span>US. CA.</span><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
+      <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
+      <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
+      <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
+    </ul>
+    </div>
     </Container>
-  </footer>
+  </FooterStyle>
 )
 
 

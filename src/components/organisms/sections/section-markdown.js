@@ -26,7 +26,7 @@ li{
 
 const SectionMarkdown = ({object}) => (
 
-<SectionMarkdownStyle>
+<SectionMarkdownStyle className="section-markdown">
   <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(object.markdown) }} />
 </SectionMarkdownStyle>
 )

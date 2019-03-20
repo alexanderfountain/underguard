@@ -3,10 +3,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import * as variable from './variables.js'
-import Mobilemenu from './mobilemenu'
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import logo from '../images/underlogo.png'
 const Nav = styled.nav`
 width:100%;
   ul{
@@ -55,11 +52,11 @@ width:100%;
   }
 `
 
-const Menu = () => (
+const FooterMenu = () => (
 
   <StaticQuery
   query={graphql`
-    query MenuQuery {
+    query FooterMenuQuery {
       site {
         siteMetadata {
           menuLinks{
@@ -74,20 +71,18 @@ const Menu = () => (
     <>
     <Nav>
     <ul>
+      <li>
+      <Link className="footer-logo"to="/"><img src={logo} alt="logo" /></Link>
+      </li>
       {data.site.siteMetadata.menuLinks.map((menuitem, index) =>(
         <li key={index}><Link to={menuitem.link}>{menuitem.name}</Link></li>
       ))}
-      <li className="number"><span>US. CA.</span><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
-      <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
-      <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
-      <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
     </ul>
     </Nav>
-    <Mobilemenu />
   </>
   )}
   />
 )
 
 
-export default Menu
+export default FooterMenu

@@ -1,22 +1,34 @@
 import styled from "styled-components"
 const Form = styled.div`
+  .form-group{
+    display:block;
+  }
+  label{
+    display:block;
+  }
   input{
-    font-family: 'Poppins', sans-serif;
+  display:block;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  text-align: center;
+  margin-bottom: 20px;
+  border-radius:20px;
+  padding:12px 15px;
+  background-color:#fafafa;
+  border:1px solid #e3e8f0;
+  width:100%;
   }
   textarea{
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
+    border-radius:20px;
+    padding:12px 15px;
+    background-color:#fafafa;
+    border:1px solid #e3e8f0;
+    width:100%;
   }
 `;
 
