@@ -184,3 +184,18 @@ button{
   line-height:1.2;
   letter-spacing:1px;
 }
+#customerservice .section-value-container{
+  display:flex;
+  justify-content: flex-end;
+}
+#customerservice .section-markdown{
+  width:25%;
+  flex-basis:25%;
+  background-color:#262626;
+  color:white;
+  padding:20px;
+}
+
+#customerservice h2{
+  color:#1ba54a;
+}
