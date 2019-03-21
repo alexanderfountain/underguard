@@ -67,6 +67,9 @@ transform:rotate(-1deg);
     font-size:22px;
   }
 }
+a.footer-gray{
+  color: ${variable.gray};
+}
 `
 
 const Footer = () => (
@@ -78,7 +81,10 @@ const Footer = () => (
     </div>
     <div className="footer-bottom-container">
     <ul>
-      <li className="number"><span>US. CA.</span><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
+      <li><a className="footer-gray" href="">TERMS & CONDITIONS</a></li>
+      <li><a className="footer-gray" href="">PRIVACY POLICY</a></li>
+      <li className="number"><span>US. CA</span><a href="tel:+1-763-742-2022">+ 1-763-742-2022</a></li>
+      <li className="number"><span>INTL</span><a href="tel:+1-2800-123-1234">+ 1-2800-123-1234</a></li>
       <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
       <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
       <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
