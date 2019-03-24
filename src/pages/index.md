@@ -32,5 +32,39 @@ content:
       - markdown: "## REDEFINED\n\nCustomer Service\n\nLorem ipsum dolor sit amet, \x03consectetur adipiscing elit. Maecenas est sem pulvinar in ultrices sit amet, vestibulum sit amet lorem."
         type: markdown
     type: section
+  - backgroundimage: /assets/undhero.jpg
+    sectionid: whatwedo
+    sectionvalue:
+      - markdown: >-
+          **REDEFINED**
+
+
+          ## Customer Engagement
+
+
+          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+        type: markdown
+      - markdown: >-
+          **REDEFINED**
+
+
+          ## Order Taking
+
+
+          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+        type: markdown
+      - markdown: >-
+          **REDEFINED**
+
+
+          ## Telemarketing
+
+
+          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+        type: markdown
+    type: section
 ---
 
