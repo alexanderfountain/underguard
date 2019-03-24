@@ -67,5 +67,28 @@ content:
         type: markdown
     textcolor: '#ffffff'
     type: section
+  - backgroundimage: /assets/pexels-photo.jpg
+    sectionid: whatmakes
+    sectionvalue:
+      - markdown: >-
+          ## What makes UGT an industry leader in Call Center outsourcing.
+
+
+          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+
+          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+
+          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+
+          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
+          pulvinar.
+
+
+          [LEARN MORE](www.google.com)
+        type: markdown
+    type: section
 ---
 
