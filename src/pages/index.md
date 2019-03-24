@@ -90,5 +90,9 @@ content:
           [LEARN MORE](www.google.com)
         type: markdown
     type: section
+  - sectionid: recent_blogs
+    sectionvalue:
+      - type: bloglist
+    type: section
 ---
 
