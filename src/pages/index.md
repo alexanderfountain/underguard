@@ -65,6 +65,7 @@ content:
           Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
           pulvinar.
         type: markdown
+    textcolor: '#ffffff'
     type: section
 ---
 
