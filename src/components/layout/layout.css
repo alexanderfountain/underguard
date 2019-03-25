@@ -199,3 +199,37 @@ button{
 #customerservice h2{
   color:#1ba54a;
 }
+#whatwedo .section-value-container{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+#whatwedo .section-markdown{
+  margin-bottom: 40px;
+  flex-basis: calc((100%)/3 - 14px);
+  margin-right: 20px;
+}
+#whatwedo .section-markdown:nth-child(3n+3) {
+  margin-right: 0px;
+}
+#whatmakes .section-value-container{
+  width:60%;
+  margin:0 auto;
+  color:white;
+}
+#whatmakes h2{
+  color:white;
+}
+#recent_blogs .blog-list-container{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+#recent_blogs .blog-teaser{
+  margin-bottom: 40px;
+  flex-basis: calc((100%)/3 - 14px);
+  margin-right: 20px;
+}
+#recent_blogs .blog-teaser:nth-child(3n+3){
+  margin-right: 0px;
+}

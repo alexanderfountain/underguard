@@ -14,7 +14,7 @@ border-bottom: thin solid #eee;
 }
 `
 const BlogTeaserLeft = styled.div`
-flex-basis:calc(50% - 20px);
+/* flex-basis:calc(50% - 20px); */
 h2{
     margin-top:5px;
 }
@@ -26,7 +26,7 @@ h2{
 }
 `
 const BlogTeaserRight = styled.div`
-flex-basis:calc(50% - 20px);
+/* flex-basis:calc(50% - 20px); */
 @media (max-width: ${variable.mobileWidth}) {
   flex-basis:calc(100%);
 }
@@ -37,7 +37,12 @@ flex-basis:calc(50% - 20px);
 
 const BlogTeaser = ({post}) => {
 return(
-<BlogTeaserContainer>
+<BlogTeaserContainer className="blog-teaser">
+  <BlogTeaserRight>
+  <div className="blog-teaser-image">
+    <img src={post.node.frontmatter.image} />
+    </div>
+  </BlogTeaserRight>
   <BlogTeaserLeft>
   <div className="who">
   <span className="blog-date">{post.node.frontmatter.date} / </span> 
@@ -55,11 +60,6 @@ return(
     Read Full Article
   </Link>
   </BlogTeaserLeft>
-  <BlogTeaserRight>
-  <div className="blog-teaser-image">
-    <img src={post.node.frontmatter.image} />
-    </div>
-  </BlogTeaserRight>
 </BlogTeaserContainer>
 )
   }
