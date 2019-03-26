@@ -32,7 +32,7 @@ content:
       - markdown: "## REDEFINED\n\nCustomer Service\n\nLorem ipsum dolor sit amet, \x03consectetur adipiscing elit. Maecenas est sem pulvinar in ultrices sit amet, vestibulum sit amet lorem."
         type: markdown
     type: section
-  - backgroundimage: /assets/undhero.jpg
+  - backgroundimage: /assets/whatwedo.png
     sectionid: whatwedo
     sectionvalue:
       - markdown: >-
@@ -67,7 +67,7 @@ content:
         type: markdown
     textcolor: '#ffffff'
     type: section
-  - backgroundimage: /assets/pexels-photo.jpg
+  - backgroundimage: /assets/whatmakes.png
     sectionid: whatmakes
     sectionvalue:
       - markdown: >-
