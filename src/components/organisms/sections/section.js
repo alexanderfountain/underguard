@@ -21,10 +21,41 @@ const SectionStyle = styled.section`
     font-size: 28px;
     font-weight: 300;
   }
+  .section-page-title{
+    color:white;
+    font-size:44px;
+    letter-spacing:2px;
+    border:2px solid white;
+    padding:15px 20px;
+    background-color:rgba(0, 0, 0, 0.5)
+  }
+  .section-page-title-container{
+    text-align:center;
+    position:relative;
+    margin-top:15%;
+    .section-page-title{
+      display:inline-block;
+    }
+  }
 `;
 
 const Section = ({section}) => {
-  // console.log(section)
+  console.log(section)
+  var sectionTitle;
+  if(section.sectiontitle && section.pagetitle == true){
+    sectionTitle = <div class="section-page-title-container">
+    <h1 className="section-title section-page-title">{section.sectiontitle}</h1>
+    </div>
+  }
+  else if(section.sectiontitle && section.pagetitle == false){
+    sectionTitle = <div class="section-page-title-container">
+    <h2 className="section-title">{section.sectiontitle}</h2>
+    </div>
+  }
+  else{
+    sectionTitle = '';
+
+  }
   return(
       <SectionStyle id={section.sectionid}
       backgroundimage={section.backgroundimage}
@@ -32,16 +63,19 @@ const Section = ({section}) => {
       color={section.textcolor}
       >
       <Container className="section-container">
-      {section.sectiontitle != null && <h2>{section.sectiontitle}</h2>}
-      <div className="section-value-container">
-      {section.sectionvalue.map(( sectionvalue, index ) => (
-        <SectionType 
-          key={index}
-          object={sectionvalue}
-          >
-        </SectionType>
-      ))}
-      </div>
+      {sectionTitle}
+      {section.sectionvalue != null &&
+            <div className="section-value-container">
+            {section.sectionvalue.map(( sectionvalue, index ) => (
+              <SectionType 
+                key={index}
+                object={sectionvalue}
+                >
+              </SectionType>
+            ))}
+            </div>
+      
+      }
       </Container>
     </SectionStyle>
   )

@@ -274,6 +274,7 @@ button{
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
+  align-items: flex-start;
 }
 #recent_blogs .blog-teaser{
   margin-bottom: 40px;

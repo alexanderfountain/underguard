@@ -12,7 +12,7 @@ module.exports = {
       },
       {
          name:'services',
-         link:'#'
+         link:'/services'
       },
       {
          name:'industries',

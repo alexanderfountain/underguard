@@ -4,11 +4,7 @@ import * as variable from '../../variables'
 import styled from 'styled-components'
 
 const BlogTeaserContainer = styled.div`
-display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
 padding:50px 0px;
-border-bottom: thin solid #eee;
 @media (max-width: ${variable.mobileWidth}) {
   flex-direction: column-reverse;
 }

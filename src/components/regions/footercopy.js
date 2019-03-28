@@ -8,7 +8,7 @@ const Footercopy = () => (
       textAlign:'center',
     }}>
 
-    © {new Date().getFullYear()}, Built by 1986.io
+    © {new Date().getFullYear()}, Built by <a href="https://1986.io" target="_blank">1986.io</a>
 
     </Container>
 
