@@ -14,7 +14,9 @@ const SectionType = ({object}) => {
     case 'bloglist':
     return <BlogList></BlogList>;
     case 'form':
-    return <SectionForm></SectionForm>;
+    return <SectionForm
+    object={object}>
+    </SectionForm>;
   }
   return(
     null

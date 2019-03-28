@@ -24,7 +24,7 @@ const SectionStyle = styled.section`
 `;
 
 const Section = ({section}) => {
-  console.log(section)
+  // console.log(section)
   return(
       <SectionStyle id={section.sectionid}
       backgroundimage={section.backgroundimage}

@@ -15,6 +15,9 @@
   word-wrap:break-word;
   overflow-x:hidden;
 }
+p{
+  line-height:1.5em;
+}
 a{
   transition: all 0.2s;
   border-bottom: 1px solid #232525;
@@ -145,6 +148,19 @@ button{
 #homehero{
   padding-top:200px;
 }
+#homehero li{
+  list-style:none;
+  display:flex;
+  align-items:center;
+  margin-bottom:10px;
+}
+#homehero li:before{
+  font-family: "Font Awesome 5 Free";
+  color:#1ba54a;
+  content:"\f14a";
+  font-size:32px;
+  margin-right:20px;
+}
 #homehero a{
   background-color:#1ba54a;
   border-radius:25px;
@@ -198,11 +214,20 @@ button{
 
 #customerservice h2{
   color:#1ba54a;
+  font-size:16px;
+}
+#customerservice h3{
+  color:#ffffff;
+  font-size:28px;
+  font-weight:normal;
 }
 #whatwedo .section-value-container{
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
+}
+#whatwedo h2{
+  font-weight:normal;
 }
 #whatwedo .section-markdown{
   margin-bottom: 40px;
@@ -219,6 +244,14 @@ button{
 }
 #whatmakes h2{
   color:white;
+  font-weight:400;
+}
+#whatmakes ul{
+  padding:0px;
+  margin:0px;
+  margin-top:10px;
+  margin-left:20px;
+  line-height:1.5em;
 }
 #recent_blogs .blog-list-container{
   display:flex;

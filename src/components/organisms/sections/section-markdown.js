@@ -7,19 +7,7 @@ import * as variable from '../../variables';
 const converter = new showdown.Converter()
 
 const SectionMarkdownStyle = styled.section`
-li{
-  list-style:none;
-  display:flex;
-  align-items:center;
-  margin-bottom:10px;
-  &:before{
-    font-family: "Font Awesome 5 Free";
-    color:${variable.brand1};
-    content:"\f14a";
-    font-size:32px;
-    margin-right:20px;
-  }
-}
+
 `;
 
 

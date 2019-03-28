@@ -5,14 +5,40 @@ import Form from "../../form";
 
 
 const SectionFormStyle = styled.section`
-
+	button{
+		color: white;
+		background-color:black;
+		border-radius: 25px;
+		padding: 10px 30px;
+		border: 0px;
+		color: white;
+		font-size:22px;
+		display: inline-block;
+		cursor:pointer;
+	}
+	label{
+		font-weight:bold;
+	}
+	input{
+		padding:20px 20px;
+		border-radius:30px
+	}
+	textarea{
+		padding:20px 30px
+		text-align:left;
+		min-height:100px;
+		border-radius:10px;
+	}
 `;
 
 
 
-const SectionForm = () => (
-
-<Form className="section-form">
+const SectionForm = ({object}) => {
+	const {markdown} = object
+	return(
+<SectionFormStyle className="section-form">
+<Form>
+<h3>{markdown}</h3>
 <form name="homecontact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="contact3" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
@@ -37,6 +63,9 @@ const SectionForm = () => (
 								</div>
 							</form>
 </Form>
-)
+</SectionFormStyle>
+	)
+
+}
 
 export default SectionForm
