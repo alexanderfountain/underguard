@@ -16,15 +16,15 @@ module.exports = {
       },
       {
          name:'industries',
-         link:'#'
+         link:'/industries'
       },
       {
         name:'about us',
-        link:'#'
+        link:'/about-us'
       },
       {
         name:'case study',
-        link:'#'
+        link:'/case-study'
       },
       {
         name:'blog',
