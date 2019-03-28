@@ -12,11 +12,21 @@ border-bottom: thin solid #eee;
 @media (max-width: ${variable.mobileWidth}) {
   flex-direction: column-reverse;
 }
+.teaser-body{
+  line-height:1.3em;
+}
+
 `
 const BlogTeaserLeft = styled.div`
 /* flex-basis:calc(50% - 20px); */
 h2{
     margin-top:5px;
+    a{
+      color:${variable.brand1};
+      font-weight:400;
+      line-height:1.1em;
+    }
+    margin-bottom:10px !important;
 }
 @media (max-width: ${variable.mobileWidth}) {
   flex-basis:calc(100%);
@@ -44,10 +54,10 @@ return(
     </div>
   </BlogTeaserRight>
   <BlogTeaserLeft>
-  <div className="who">
+  {/* <div className="who">
   <span className="blog-date">{post.node.frontmatter.date} / </span> 
   <span className="blog-teaser-author">{post.node.frontmatter.author}</span>
-  </div>
+  </div> */}
   <h2>
   <Link className="has-text-primary" to={post.node.fields.slug}>
     {post.node.frontmatter.title}
