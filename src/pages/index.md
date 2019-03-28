@@ -70,24 +70,7 @@ content:
   - backgroundimage: /assets/whatmakes.png
     sectionid: whatmakes
     sectionvalue:
-      - markdown: >-
-          ## What makes UGT an industry leader in Call Center outsourcing.
-
-
-          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
-
-          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
-
-          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
-
-          * Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
-
-
-          [LEARN MORE](www.google.com)
+      - markdown: "## What makes UGT an industry leader in Call Center outsourcing.\n\n*  Best Value Call Center Partner in America \r \n* Robust Technology and Infrastructure to Support Vast Scalability\n* Extensive Agent Training Processes\r\n* Best Practices from Fortune 5000 companies\r\n* Understands That Your Success Equals Our Success \r\n\n[LEARN MORE](www.google.com)"
         type: markdown
     type: section
   - sectionid: recent_blogs
