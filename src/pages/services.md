@@ -2,9 +2,9 @@
 title: Services
 templateKey: page
 content:
-  - backgroundimage: /assets/achievement-adult-agreement-327540.jpg
+  - backgroundimage: ''
     pagetitle: true
-    sectiontitle: Services
+    sectiontitle: ''
     sectionvalue:
       - markdown: >-
           # Pars sacrata
