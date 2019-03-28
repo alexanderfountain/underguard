@@ -2,6 +2,10 @@
 title: Services
 templateKey: page
 content:
+  - backgroundimage: /assets/achievement-adult-agreement-327540.jpg
+    pagetitle: true
+    sectiontitle: Services
+    type: section
   - backgroundimage: ''
     pagetitle: true
     sectiontitle: ''
