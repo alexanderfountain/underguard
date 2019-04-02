@@ -4,6 +4,7 @@ templateKey: page
 content:
   - backgroundimage: /assets/undherotran.png
     sectionid: homehero
+    sectiontitle: Test
     sectionvalue:
       - markdown: |-
           ### Call Center Outsourcing.
