@@ -6,23 +6,25 @@ content:
     sectionid: homehero
     sectiontitle: ''
     sectionvalue:
-      - markdown: |-
-          ### Call Center Outsourcing.
-
-          ## REDEFINED.
-
-          * Elevate Customer Experience
-          * Increase Social Responsibility
-          * Improve Lifetime Customer Value
-          * 100% USA Based Agents
-
-          [LEARN MORE](#)
+      - markdown: "### Call Center Outsourcing.\n\n## REDEFINED.\n\n* Elevate Customer Experience\r\n* Increase Social Responsibility\r\n* Improve Lifetime Customer Value\r\n* 100% USA Based Agents\r\n\n[LEARN MORE](#)"
         type: markdown
     textcolor: '#ffffff'
     type: section
   - sectionid: homecontact
     sectionvalue:
-      - markdown: "![Phone](/assets/phone_icon.png \"Phone\")\n\n### REDEFINED\n\n#### Call Center Outsourcing.\n\nLorem ipsum dolor sit amet, \x03consectetur adipiscing elit. Maecenas est sem pulvinar in ultrices sit amet, vestibulum sit amet lorem."
+      - markdown: >-
+          ![Phone](/assets/phone_icon.png "Phone")
+
+
+          ### REDEFINED
+
+
+          #### Call Center Outsourcing.
+
+
+          Innovative, equip jobs skills, accelerate community re-integration,
+          family reunification, reduction in recidivism, reduce drag on
+          community services = Redefined Outsourcing.
         type: markdown
       - markdown: FREE QUOTE
         type: form
@@ -30,7 +32,12 @@ content:
   - backgroundimage: /assets/module2bg.png
     sectionid: customerservice
     sectionvalue:
-      - markdown: "## REDEFINED\n\n###Customer Service\n\nLorem ipsum dolor sit amet, \x03consectetur adipiscing elit. Maecenas est sem pulvinar in ultrices sit amet, vestibulum sit amet lorem."
+      - markdown: |-
+          ## REDEFINED
+
+          \###Customer Service
+
+          Stimulate business growth and elevate customer experience.
         type: markdown
     type: section
   - backgroundimage: /assets/whatwedo.png
@@ -43,18 +50,9 @@ content:
           ## Customer Engagement
 
 
-          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
-        type: markdown
-      - markdown: >-
-          **REDEFINED**
-
-
-          ## Order Taking
-
-
-          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
+          Have peace of mind knowing Underguard takes engagement to a new level,
+          allowing you to focus on your main objective, acquiring more
+          customers.
         type: markdown
       - markdown: >-
           **REDEFINED**
@@ -66,12 +64,23 @@ content:
           Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
           pulvinar.
         type: markdown
+      - markdown: >-
+          **REDEFINED**
+
+
+          ## Social Impact
+
+
+          Underguard Teleservices is built on the principle that everyone
+          deserves a second chance. Our worldview is through a lens of
+          compassion, putting people first in all we do.
+        type: markdown
     textcolor: '#ffffff'
     type: section
   - backgroundimage: /assets/whatmakes.png
     sectionid: whatmakes
     sectionvalue:
-      - markdown: "## What makes UGT an industry leader in Call Center outsourcing.\n\n*  Best Value Call Center Partner in America \r \n* Robust Technology and Infrastructure to Support Vast Scalability\n* Extensive Agent Training Processes\r\n* Best Practices from Fortune 5000 companies\r\n* Understands That Your Success Equals Our Success \r\n\n[LEARN MORE](www.google.com)"
+      - markdown: "## What makes UGT an industry leader in Call Center outsourcing.\n\n* We are the Highest Value Call Center Partner in the USA\r\n* Open-Source Technology, we own the Code\r\n* Educating People, Inspiring Change. Changing Lives.\n* Best Practices Integrated from Fortune 5000\r\n\n\n\n[LEARN MORE](www.google.com)"
         type: markdown
     type: section
   - sectionid: recent_blogs
