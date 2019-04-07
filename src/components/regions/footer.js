@@ -16,8 +16,20 @@ width:110%;
 top:-5%;
 left:-5%;
 transform:rotate(-1deg);
+@media (max-width: ${variable.tabletWidth}) {
+  transform:none;
+  width:100%;
+  top:auto;
+  left:auto;
+}
 .footer-container{
   transform:rotate(1deg);
+  @media (max-width: ${variable.tabletWidth}) {
+    transform:none;
+  }
+}
+.footer-social{
+  display:flex;
 }
 .footer-top-container{
   padding-bottom:60px;
@@ -31,6 +43,9 @@ transform:rotate(-1deg);
     list-style:none;
     display:flex;
     justify-content:space-between;
+    @media (max-width: ${variable.tabletWidth}) {
+      display:block;
+    }
   }
   li{
     margin-bottom:0px;
@@ -85,9 +100,11 @@ const Footer = () => (
       <li><a className="footer-gray" href="">PRIVACY POLICY</a></li>
       <li className="number"><span>US. CA</span><a href="tel:+1-763-742-2022">+ 1-763-742-2022</a></li>
       <li className="number"><span>INTL</span><a href="tel:+1-2800-123-1234">+ 1-2800-123-1234</a></li>
+      <div className="footer-social">
       <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
       <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
       <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
+      </div>
     </ul>
     </div>
     </Container>

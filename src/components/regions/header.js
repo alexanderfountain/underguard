@@ -6,6 +6,7 @@ import Menu from '../menu'
 import styled from "styled-components"
 import logo from "../../images/underlogo.png"
 import * as variable from '../variables'
+import Mobilemenu from '../mobilemenu'
 
 const HeaderStyle = styled.header`
   display:flex;
@@ -20,6 +21,9 @@ const HeaderStyle = styled.header`
     padding-top:20px;
     padding-bottom:20px;  
     z-index:100;
+    @media (max-width: ${variable.tabletWidth}) {
+      display:none;
+    }
   }
   .logo-menu-below{
     position:absolute;
@@ -28,6 +32,12 @@ const HeaderStyle = styled.header`
     width:100%;
     justify-content:space-between;
     align-items:center;
+    @media (max-width: ${variable.tabletWidth}) {
+      background-color:#262626;
+      padding-top:20px;
+      padding-bottom:20px;
+      top:0;
+    }
     .logo{
       flex-basis:255px;
       border-bottom:none;
@@ -40,6 +50,9 @@ const HeaderStyle = styled.header`
     }
   }
   .right-logo-menu{
+    @media (max-width: ${variable.mobileWidth}) {
+      display:none;
+    }
     ul{
       display:flex;
       padding:0px;
@@ -80,6 +93,7 @@ const Header = () => (
         </li>
       </ul>
       </div>
+      <Mobilemenu />
       </Container>
   </HeaderStyle>
 )

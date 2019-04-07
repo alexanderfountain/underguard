@@ -89,34 +89,7 @@ button{
   width: 2000px;
   top: 0px;
 }
-.bm-menu {
-  background: #373a47;
-  font-size: 1.15em;
-  padding: 2.5em 1.5em 0;
-}
-.bm-overlay {
-  left: 0;
-  top: 0;
-}
-.bm-menu-wrap {
-  top: 0;
-}
-.bm-burger-button {
-  height: 30px;
-  left: 36px;
-  top: 36px;
-  width: 36px;
-}
-.bm-burger-bars {
-  background: #373a47;
-}
-.bm-cross {
-  background: #bdc3c7;
-}
-.bm-menu a{
-  color:white;
-  text-decoration:none;
-}
+
 #video-viewport {
   width: 100%;
   height: 500px;
@@ -200,6 +173,26 @@ button{
   line-height:1.2;
   letter-spacing:1px;
 }
+@media (max-width: 1000px){
+  #homecontact .section-markdown{
+    flex-basis:calc(50% - 40px);
+    width:calc(50% - 40px);
+  }
+  #homecontact .section-form{
+    flex-basis:50%;
+    width:50%;
+  }
+}
+@media (max-width: 700px){
+  #homecontact .section-markdown{
+    flex-basis:calc(100%);
+    width:calc(100%);
+  }
+  #homecontact .section-form{
+    flex-basis:calc(100%);
+    width:calc(100%);
+  }
+}
 #customerservice .section-value-container{
   display:flex;
   justify-content: flex-end;
@@ -211,7 +204,18 @@ button{
   color:white;
   padding:20px;
 }
-
+@media (max-width: 1000px){
+  #customerservice .section-markdown{
+    width:45%;
+    flex-basis:45%;
+  }
+}
+@media (max-width: 700px){
+  #customerservice .section-markdown{
+    width:100%;
+    flex-basis:100%;
+  }
+}
 #customerservice h2{
   color:#1ba54a;
   font-size:16px;
@@ -234,6 +238,11 @@ button{
   flex-basis: calc((100%)/3 - 14px);
   margin-right: 20px;
 }
+@media (max-width: 800px){
+  #whatwedo .section-markdown{
+    flex-basis: calc((100%));
+  }
+}
 #whatwedo .section-markdown:nth-child(3n+3) {
   margin-right: 0px;
 }
@@ -241,6 +250,11 @@ button{
   width:60%;
   margin:0 auto;
   color:white;
+}
+@media (max-width: 800px){
+  #whatmakes .section-value-container{
+    width:100%;
+  }
 }
 #whatmakes h2{
   color:white;
@@ -280,6 +294,14 @@ button{
   margin-bottom: 40px;
   flex-basis: calc((100%)/3 - 14px);
   margin-right: 20px;
+}
+@media (max-width: 800px){
+  #recent_blogs .blog-teaser{
+    flex-basis: calc(100%);
+    margin-right:0px;
+    margin-bottom:20px;
+    padding-bottom:0px;
+  }
 }
 #recent_blogs .blog-teaser:nth-child(3n+3){
   margin-right: 0px;

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import * as variable from '../../variables'
 import styled from 'styled-components'
+import Img from "gatsby-image";
 
 const BlogTeaserContainer = styled.div`
 padding:50px 0px;
@@ -46,7 +47,9 @@ return(
 <BlogTeaserContainer className="blog-teaser">
   <BlogTeaserRight>
   <div className="blog-teaser-image">
-    <img src={post.node.frontmatter.image} />
+        {post.node.frontmatter.image != null &&   <Img
+      fluid={post.node.frontmatter.image.childImageSharp.fluid}
+    />}
     </div>
   </BlogTeaserRight>
   <BlogTeaserLeft>

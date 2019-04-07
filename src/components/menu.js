@@ -83,7 +83,6 @@ const Menu = () => (
       <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
     </ul>
     </Nav>
-    <Mobilemenu />
   </>
   )}
   />

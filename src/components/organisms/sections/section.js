@@ -40,8 +40,12 @@ const SectionStyle = styled.section`
 `;
 
 const Section = ({section}) => {
-  console.log(section)
+
   var sectionTitle;
+  var bgimage = '';
+  if(section.backgroundimage != null){
+    bgimage = section.backgroundimage.childImageSharp.fluid.src;
+  }
   if(section.sectiontitle && section.pagetitle == true){
     sectionTitle = <div class="section-page-title-container">
     <h1 className="section-title section-page-title">{section.sectiontitle}</h1>
@@ -58,7 +62,7 @@ const Section = ({section}) => {
   }
   return(
       <SectionStyle id={section.sectionid}
-      backgroundimage={section.backgroundimage}
+      backgroundimage={bgimage}
       backgroundcolor={section.backgroundcolor}
       color={section.textcolor}
       >

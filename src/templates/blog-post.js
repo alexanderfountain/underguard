@@ -9,6 +9,7 @@ import styled from 'styled-components'
 import { HTMLContent } from '../components/Content'
 import Form from '../components/form'
 import Styledbutton from "../components/atoms/link"
+import Img from "gatsby-image";
 
 
 
@@ -68,7 +69,11 @@ export const BlogPostTemplate = ({
         <span className="blog-date">{date} / </span> 
         <span className="blog-teaser-author">{author}</span>
       </div>
-      <div><img src={image} /></div>
+      <div className="blog-full-image">
+        {image != null &&   <Img
+          fluid={image.childImageSharp.fluid}
+      />}
+    </div>
       <PostContent content={content} />
       </Blogleft>
       <Blogright>
@@ -151,7 +156,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         tags
-        image
+        image{
+          childImageSharp {
+            fluid(maxWidth: 756, maxHeight: 450) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         author
       }
     }

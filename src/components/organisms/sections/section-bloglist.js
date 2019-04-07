@@ -30,7 +30,13 @@ export const BlogList = () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                image
+                image{
+                  childImageSharp {
+                    fluid(maxWidth: 345, maxHeight: 230) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 author
               }
             }
