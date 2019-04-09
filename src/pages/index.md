@@ -6,7 +6,17 @@ content:
     sectionid: homehero
     sectiontitle: ''
     sectionvalue:
-      - markdown: "### Call Center Outsourcing.\n\n## REDEFINED.\n\n* Elevate Customer Experience\r\n* Increase Social Responsibility\r\n* Improve Lifetime Customer Value\r\n* 100% USA Based Agents\r\n\n[LEARN MORE](#)"
+      - markdown: |-
+          ### Call Center Outsourcing.
+
+          ## REDEFINED.
+
+          * Elevate Customer Experience
+          * Increase Social Responsibility
+          * Improve Lifetime Customer Value
+          * 100% USA Based Agents
+
+          [LEARN MORE](/services)
         type: markdown
     textcolor: '#ffffff'
     type: section
