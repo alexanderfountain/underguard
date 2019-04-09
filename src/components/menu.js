@@ -4,11 +4,15 @@ import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import * as variable from './variables.js'
 import Mobilemenu from './mobilemenu'
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
+import { FaLinkedinIn } from "react-icons/fa"
+import logo from "../images/underlogo.png"
 const Nav = styled.nav`
 width:100%;
+.logo{
+  max-width:175px;
+}
   ul{
     margin:0px;
     padding:0px;
@@ -25,7 +29,6 @@ width:100%;
       color:${variable.brand1};
       a{
         color:${variable.brand1};
-        margin-left:20px;
       }
     }
   }
@@ -36,7 +39,7 @@ width:100%;
     transition: all 0.2s;
     font-family:Montserrat, sans-serif; 
     text-transform:uppercase;
-    font-size:16px;
+    font-size:13px;
     letter-spacing: 0.5px;
     -webkit-font-smoothing: antialiased;
     text-decoration:none;
@@ -74,13 +77,12 @@ const Menu = () => (
     <>
     <Nav>
     <ul>
+      <li><Link className="logo"to="/"><img src={logo} alt="logo" /></Link></li>
       {data.site.siteMetadata.menuLinks.map((menuitem, index) =>(
         <li key={index}><Link to={menuitem.link}>{menuitem.name}</Link></li>
       ))}
-      <li className="number"><span>US. CA.</span><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
-      <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
-      <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
-      <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
+      <li className="number"><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
+      <li><a class="button-orange-cta" href="#">FREE QUOTE</a></li>
     </ul>
     </Nav>
   </>

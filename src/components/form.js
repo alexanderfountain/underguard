@@ -23,7 +23,6 @@ const Form = styled.div`
     font-weight: 400;
     letter-spacing: 0.5px;
     margin-bottom: 20px;
-    text-align: center;
     border-radius:20px;
     padding:12px 15px;
     background-color:#fafafa;

@@ -119,7 +119,7 @@ button{
   margin-bottom:40px;
 }
 #homehero{
-  padding-top:200px;
+  padding-top:150px;
 }
 #homehero li{
   list-style:none;
@@ -305,4 +305,17 @@ button{
 }
 #recent_blogs .blog-teaser:nth-child(3n+3){
   margin-right: 0px;
+}
+.button-orange-cta{
+  color: white;
+  cursor: pointer;
+  font-weight: bold !important;
+  background-color:#DE7204;
+  border-radius: 25px;
+  padding: 5px 16px;
+  border:2px solid #DE7204 !important
+}
+.button-orange-cta:hover{
+  background-color: transparent;
+  color:white !important;
 }
