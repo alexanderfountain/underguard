@@ -15,6 +15,9 @@
   word-wrap:break-word;
   overflow-x:hidden;
 }
+main{
+  padding-top:86px;
+}
 p{
   line-height:1.5em;
 }
@@ -117,9 +120,6 @@ button{
   font-size:56px;
   letter-spacing:3px;
   margin-bottom:40px;
-}
-#homehero{
-  padding-top:150px;
 }
 #homehero li{
   list-style:none;
