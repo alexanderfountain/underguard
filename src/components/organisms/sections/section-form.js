@@ -40,7 +40,7 @@ const SectionForm = ({object}) => {
 <Form>
 <h3>{markdown}</h3>
 <form name="homecontact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-			<input type="hidden" name="form-name" value="contact3" />
+			<input type="hidden" name="form-name" value="homecontact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
 								<div class="form-group">
 									<label for="name" class="lb-name">NAME</label>
