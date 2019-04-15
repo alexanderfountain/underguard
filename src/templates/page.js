@@ -70,6 +70,8 @@ export const PageQuery = graphql`
           sectionvalue{
             type
             markdown
+            leftmarkdown
+            rightmarkdown
           }
         }
       }

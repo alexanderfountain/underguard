@@ -32,7 +32,6 @@ const SectionStyle = styled.section`
   .section-page-title-container{
     text-align:center;
     position:relative;
-    margin-top:15%;
     .section-page-title{
       display:inline-block;
     }
@@ -51,7 +50,7 @@ const Section = ({section}) => {
     <h1 className="section-title section-page-title">{section.sectiontitle}</h1>
     </div>
   }
-  else if(section.sectiontitle && section.pagetitle == false){
+  else if(section.sectiontitle){
     sectionTitle = <div class="section-page-title-container">
     <h2 className="section-title">{section.sectiontitle}</h2>
     </div>

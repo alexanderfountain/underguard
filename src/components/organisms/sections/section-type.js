@@ -3,6 +3,7 @@ import styled from "styled-components";
 import SectionMarkdown from "../sections/section-markdown"
 import BlogList from "../sections/section-bloglist"
 import SectionForm from "../sections/section-form"
+import ContentLeftContentRight from "../sections/section-content-left-content-right"
 
 const SectionType = ({object}) => {
  
@@ -13,6 +14,10 @@ const SectionType = ({object}) => {
     ></SectionMarkdown>;
     case 'bloglist':
     return <BlogList></BlogList>;
+    case 'contentleftcontentright':
+    return <ContentLeftContentRight
+    object={object}>
+    </ContentLeftContentRight>;
     case 'form':
     return <SectionForm
     object={object}>
