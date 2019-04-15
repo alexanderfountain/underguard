@@ -94,6 +94,7 @@ content:
         type: markdown
     type: section
   - sectionid: recent_blogs
+    sectiontitle: Read our Blog
     sectionvalue:
       - type: bloglist
     type: section
