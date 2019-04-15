@@ -90,8 +90,34 @@ content:
   - backgroundimage: /assets/whatmakes.png
     sectionid: whatmakes
     sectionvalue:
-      - markdown: "## What makes UGT an industry leader in Call Center outsourcing.\n\n* We are the Highest Value Call Center Partner in the USA\r\n* Open-Source Technology, we own the Code\r\n* Educating People, Inspiring Change. Changing Lives.\n* Best Practices Integrated from Fortune 5000\r\n\n\n\n[LEARN MORE](www.google.com)"
-        type: markdown
+      - leftmarkdown: |-
+          * We are the Highest Value Call Center Partner in the USA
+          * Open-Source Technology, we own the Code
+          * Educating People, Inspiring Change. Changing Lives.
+          * Best Practices Integrated from Fortune 5000
+
+          [LEARN MORE](www.google.com)
+        rightmarkdown: |-
+
+
+          * We are the Highest Value Call Center Partner in the USA
+          * Open-Source Technology, we own the Code
+          * Educating People, Inspiring Change. Changing Lives.
+          * Best Practices Integrated from Fortune 5000
+
+          [LEARN MORE](www.google.com)
+        type: contentleftcontentright
+      - leftmarkdown: |-
+
+
+          * We are the Highest Value Call Center Partner in the USA
+          * Open-Source Technology, we own the Code
+          * Educating People, Inspiring Change. Changing Lives.
+          * Best Practices Integrated from Fortune 5000
+
+          [LEARN MORE](www.google.com)
+        rightmarkdown: '## What makes UGT an industry leader in Call Center outsourcing.'
+        type: contentleftcontentright
     type: section
   - sectionid: recent_blogs
     sectiontitle: Read our Blog
