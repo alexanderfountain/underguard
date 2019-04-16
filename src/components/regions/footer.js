@@ -37,6 +37,9 @@ transform:rotate(-1deg);
   margin-bottom:60px;
 }
 .footer-bottom-container{
+  .menu-social{
+    padding:0px 10px;
+  }
   ul{
     margin:0px;
     padding:0px;
@@ -101,9 +104,9 @@ const Footer = () => (
       <li className="number"><span>US. CA</span><a href="tel:+1-763-742-2022">+ 1-763-742-2022</a></li>
       <li className="number"><span>INTL</span><a href="tel:+1-2800-123-1234">+ 1-2800-123-1234</a></li>
       <div className="footer-social">
-      <li className="menu-social"><a href="#"><FaFacebookF></FaFacebookF></a></li>
-      <li className="menu-social"><a href="#"><FaTwitter></FaTwitter></a></li>
-      <li className="menu-social"><a href="#"><FaLinkedinIn></FaLinkedinIn></a></li>
+      <li className="menu-social"><a target="_blank" href="https://www.facebook.com/underguardservices/"><FaFacebookF></FaFacebookF></a></li>
+      <li className="menu-social"><a target="_blank" href="#"><FaTwitter></FaTwitter></a></li>
+      <li className="menu-social"><a target="_blank" href="https://www.linkedin.com/company/underguard-teleservices/"><FaLinkedinIn></FaLinkedinIn></a></li>
       </div>
     </ul>
     </div>

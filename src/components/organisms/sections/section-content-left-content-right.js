@@ -7,7 +7,14 @@ import * as variable from '../../variables';
 const converter = new showdown.Converter()
 
 const SectionContentLeftContentRightStyle = styled.section`
-
+    display:flex;
+    justify-content:space-between;
+    .content-left{
+        flex-basis:50%;
+    }
+    .content-right{
+        flex-basis:50%;
+    }
 `;
 
 
@@ -15,8 +22,8 @@ const SectionContentLeftContentRightStyle = styled.section`
 const SectionContentLeftContentRight = ({object}) => {
 return(
 <SectionContentLeftContentRightStyle className="section-content-left-content-right">
-<div dangerouslySetInnerHTML={{ __html: converter.makeHtml(object.leftmarkdown) }} />
-<div dangerouslySetInnerHTML={{ __html: converter.makeHtml(object.rightmarkdown) }} />
+<div className ="content-left" dangerouslySetInnerHTML={{ __html: converter.makeHtml(object.leftmarkdown) }} />
+<div className ="content-right" dangerouslySetInnerHTML={{ __html: converter.makeHtml(object.rightmarkdown) }} />
 </SectionContentLeftContentRightStyle>
 )
 }

@@ -243,18 +243,38 @@ button{
     flex-basis: calc((100%));
   }
 }
-#whatwedo .section-markdown:nth-child(3n+3) {
-  margin-right: 0px;
-}
-#whatmakes .section-value-container{
-  width:60%;
-  margin:0 auto;
+#whatmakes{
   color:white;
 }
-@media (max-width: 800px){
-  #whatmakes .section-value-container{
-    width:100%;
-  }
+#whatmakes{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+#whatmakes .section-container{
+  width:100%;
+  max-width:100%;
+  padding:0px;
+}
+.content-left{
+  padding:50px;
+}
+.content-right{
+  padding:50px;
+}
+#whatmakes .section-content-left-content-right:nth-child(1) .content-left{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+#whatmakes .section-content-left-content-right:nth-child(1) .content-right{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+#whatmakes .section-content-left-content-right:nth-child(2) .content-left{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+#whatmakes .section-content-left-content-right:nth-child(2) .content-right{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+#whatwedo .section-markdown:nth-child(3n+3) {
+  margin-right: 0px;
 }
 #whatmakes h2{
   color:white;
