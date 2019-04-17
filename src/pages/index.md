@@ -116,7 +116,7 @@ content:
         rightmarkdown: '## What makes UGT an industry leader in Call Center outsourcing.'
         type: contentleftcontentright
     type: section
-  - pagetitle: true
+  - pagetitle: false
     sectionid: recent_blogs
     sectiontitle: Read our Blog
     sectionvalue:
