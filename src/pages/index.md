@@ -45,7 +45,7 @@ content:
       - markdown: |-
           ## REDEFINED
 
-          \###Customer Service
+          Customer Service
 
           Stimulate business growth and elevate customer experience.
         type: markdown
@@ -64,15 +64,12 @@ content:
           allowing you to focus on your main objective, acquiring more
           customers.
         type: markdown
-      - markdown: >-
+      - markdown: |-
           **REDEFINED**
-
 
           ## Telemarketing
 
-
-          Lorem ipsum dolor sit amet, consecutor adipscle elit. Macnes est sem
-          pulvinar.
+          Drive Revenue. Stimulate Business Growth.
         type: markdown
       - markdown: >-
           **REDEFINED**
@@ -119,7 +116,8 @@ content:
         rightmarkdown: '## What makes UGT an industry leader in Call Center outsourcing.'
         type: contentleftcontentright
     type: section
-  - sectionid: recent_blogs
+  - pagetitle: true
+    sectionid: recent_blogs
     sectiontitle: Read our Blog
     sectionvalue:
       - type: bloglist
