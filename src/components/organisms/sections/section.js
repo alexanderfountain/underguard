@@ -29,6 +29,9 @@ const SectionStyle = styled.section`
     padding:15px 20px;
     background-color:rgba(0, 0, 0, 0.5)
   }
+  .section-title{
+    margin-bottom:40px;
+  }
   .section-page-title-container{
     text-align:center;
     position:relative;
@@ -40,12 +43,14 @@ const SectionStyle = styled.section`
 
 const Section = ({section}) => {
 
+  console.log(section);
+
   var sectionTitle;
   var bgimage = '';
   if(section.backgroundimage != null){
     bgimage = section.backgroundimage.childImageSharp.fluid.src;
   }
-  if(section.sectiontitle && section.pagetitle == true){
+  if(section.sectiontitle && section.pagetitle === true){
     sectionTitle = <div class="section-page-title-container">
     <h1 className="section-title section-page-title">{section.sectiontitle}</h1>
     </div>

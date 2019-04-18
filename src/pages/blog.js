@@ -9,13 +9,23 @@ import * as variable from '../components/variables'
 import styled from 'styled-components'
 import BlogTeaser from "../components/entity/blog/blog-teaser"
 const BlogTeaserContainer = styled.div`
-display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
-padding:50px 0px;
-border-bottom: thin solid #eee;
-@media (max-width: ${variable.mobileWidth}) {
-  flex-direction: column-reverse;
+.blog-index-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:50px 0px;
+  border-bottom: thin solid #eee;
+  @media (max-width: ${variable.mobileWidth}) {
+    flex-direction: column-reverse;
+  }
+  .blog-teaser{
+    margin-bottom: 40px;
+    flex-basis: calc((100%)/3 - 14px);
+    margin-right: 20px;
+    &:nth-child(3n+3){
+      margin-right: 0px;
+    }
+  }
 }
 `
 export default class BlogPage extends React.Component {
@@ -53,13 +63,12 @@ export default class BlogPage extends React.Component {
             }}>
             <h1>Blog</h1>
 
-            <p style={{marginBottom:'0px'}}>Blog posts about ReactJS, Drupal, and more!</p>
-            <p style={{marginTop:'0px'}}>Check back often.</p>
-
             </Container>
             </div>
             </div>
+            <BlogTeaserContainer>
           <Container className="container blog-index">
+          <div className="blog-index-container">
             {posts
               .map((post) => (
                 <BlogTeaser
@@ -69,7 +78,9 @@ export default class BlogPage extends React.Component {
                 </BlogTeaser>
                 
               ))}
+              </div>
           </Container>
+          </BlogTeaserContainer>
         </section>
       </Layout>
     )
@@ -103,7 +114,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             image{
               childImageSharp {
-                fluid(maxWidth: 560) {
+                fluid(maxWidth: 345, maxHeight: 230) {
                   ...GatsbyImageSharpFluid
                 }
               }

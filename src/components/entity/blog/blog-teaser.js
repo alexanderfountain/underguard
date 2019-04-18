@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Img from "gatsby-image";
 
 const BlogTeaserContainer = styled.div`
-padding:50px 0px;
+border: thin solid #e0e4e8;
 @media (max-width: ${variable.mobileWidth}) {
   flex-direction: column-reverse;
 }
@@ -15,13 +15,16 @@ padding:50px 0px;
 
 `
 const BlogTeaserLeft = styled.div`
-/* flex-basis:calc(50% - 20px); */
+padding: 20px 20px;
 h2{
     margin-top:5px;
     a{
       color:${variable.brand1};
       font-weight:400;
       line-height:1.1em;
+      margin:10px 0px;
+      display:block;
+      font-size:24px;
     }
     margin-bottom:10px !important;
 }

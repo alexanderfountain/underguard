@@ -7,10 +7,6 @@ module.exports = {
     logo: `/src/images/logo_no_comp.png`,
     menuLinks:[
       {
-         name:'home',
-         link:'/'
-      },
-      {
          name:'services',
          link:'/services'
       },
