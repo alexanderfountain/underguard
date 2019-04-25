@@ -87,34 +87,42 @@ content:
   - backgroundimage: /assets/whatmakes.png
     sectionid: whatmakes
     sectionvalue:
-      - leftmarkdown: |-
-          * We are the Highest Value Call Center Partner in the USA
-          * Open-Source Technology, we own the Code
-          * Educating People, Inspiring Change. Changing Lives.
-          * Best Practices Integrated from Fortune 5000
-
-          [LEARN MORE](www.google.com)
-        rightmarkdown: |-
+      - columnmarkdown:
+          - markdown: >-
+              ## Inbound Support Service
 
 
-          * We are the Highest Value Call Center Partner in the USA
-          * Open-Source Technology, we own the Code
-          * Educating People, Inspiring Change. Changing Lives.
-          * Best Practices Integrated from Fortune 5000
-
-          [LEARN MORE](www.google.com)
-        type: contentleftcontentright
-      - leftmarkdown: |-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
+              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
+              munus dicis non equidem recuso, sed te adiungo socium. Tecum
+              optime, deinde etiam cum mediocri amico.
 
 
-          * We are the Highest Value Call Center Partner in the USA
-          * Open-Source Technology, we own the Code
-          * Educating People, Inspiring Change. Changing Lives.
-          * Best Practices Integrated from Fortune 5000
+              [Learn More](/services)
+          - markdown: >-
+              ## Inbound Support Service
 
-          [LEARN MORE](www.google.com)
-        rightmarkdown: '## What makes UGT an industry leader in Call Center outsourcing.'
-        type: contentleftcontentright
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
+              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
+              munus dicis non equidem recuso, sed te adiungo socium. Tecum
+              optime, deinde etiam cum mediocri amico.
+
+
+              [Learn More](/services)
+          - markdown: >-
+              ## Inbound Support Service
+
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
+              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
+              munus dicis non equidem recuso, sed te adiungo socium. Tecum
+              optime, deinde etiam cum mediocri amico.
+
+
+              [Learn More](/services)
+        columnnumber: '3'
+        type: columns
     type: section
   - pagetitle: false
     sectionid: recent_blogs
