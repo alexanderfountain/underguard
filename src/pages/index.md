@@ -84,7 +84,8 @@ content:
         type: markdown
     textcolor: '#ffffff'
     type: section
-  - backgroundimage: /assets/whatmakes.png
+  - backgroundcolor: '#f2f2f2'
+    backgroundimage: ''
     sectionid: whatmakes
     sectionvalue:
       - columnmarkdown:
