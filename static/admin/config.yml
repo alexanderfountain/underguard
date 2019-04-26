@@ -45,6 +45,12 @@ collections:
                 {label: "Left Markdown", name: "leftmarkdown", widget: "markdown", required: false},
                 {label: "Right Markdown", name: "rightmarkdown", widget: "markdown", required: false}
               ]},
+              {label: "Columns", name: "columns", widget: "object", required: false, fields: [
+                {label: "Number of columns", name: "columnnumber", widget: "number", required: false},
+                {label: "Column Markdown", name: "columnmarkdown", widget: "list", required: false, fields: [
+                {label: "Markdown", name: "markdown", widget: "markdown", required: false}
+                ]}
+              ]},
               {label: "Form", name: "form", widget: "object", required: false, fields: [
                 {label: "Markdown", name: "markdown", widget: "markdown", required: false}
               ]},

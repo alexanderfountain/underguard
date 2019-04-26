@@ -4,7 +4,7 @@ import SectionMarkdown from "../sections/section-markdown"
 import BlogList from "../sections/section-bloglist"
 import SectionForm from "../sections/section-form"
 import ContentLeftContentRight from "../sections/section-content-left-content-right"
-
+import SectionColumns from "../sections/section-columns"
 const SectionType = ({object}) => {
  
   switch(object.type){
@@ -18,6 +18,10 @@ const SectionType = ({object}) => {
     return <ContentLeftContentRight
     object={object}>
     </ContentLeftContentRight>;
+    case 'columns':
+    return <SectionColumns
+    object={object}>
+    </SectionColumns>;
     case 'form':
     return <SectionForm
     object={object}>

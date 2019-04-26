@@ -338,3 +338,8 @@ button{
   background-color: transparent;
   color:white !important;
 }
+#inboundoutbound .column-content{
+  padding:15px;
+  background-color:white;
+  text-align:center;
+}
