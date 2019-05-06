@@ -9,6 +9,7 @@ const converter = new showdown.Converter()
 const SectionContentLeftContentRightStyle = styled.section`
     display:flex;
     justify-content:space-between;
+    align-items:center;
     .content-left{
         flex-basis:50%;
     }
