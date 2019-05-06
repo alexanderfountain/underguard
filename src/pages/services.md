@@ -28,16 +28,38 @@ content:
     type: section
   - sectionvalue:
       - leftmarkdown: '![Tech](/assets/tech.png "Tech")'
-        rightmarkdown: "## Technical Support & User Experience.
+        rightmarkdown: >-
+          ## Technical Support & User Experience.
 
-        Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet. There are many variations of passages of available but the majority have suffered.\n\n[Read More](/technical)"
+          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
+          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
+          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
+          aliquet. There are many variations of passages of available but the
+          majority have suffered.
+
+
+          [Read More](/technical)
         type: contentleftcontentright
     type: section
   - sectionvalue:
-      - leftmarkdown: "## Live-Chat Solutions
+      - leftmarkdown: >-
+          ## Live-Chat Solutions
 
-      Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet. There are many variations of passages of available but the majority have suffered.\n\n[Read More](/live-chat)"
+
+          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
+          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
+          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
+          aliquet. There are many variations of passages of available but the
+          majority have suffered.
+
+
+          [Read More](/live-chat)
         rightmarkdown: '![live-chat](/assets/livechat.png "live-chat")'
+        type: contentleftcontentright
+    type: section
+  - sectionvalue:
+      - leftmarkdown: '![Custom Call](/assets/customcallcenter.png "Custom Call")'
+        rightmarkdown: '## Custom Call Center Solution'
         type: contentleftcontentright
     type: section
 ---
