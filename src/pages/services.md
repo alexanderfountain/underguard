@@ -31,5 +31,10 @@ content:
         rightmarkdown: "## \rTechnical Support \r& User Experience.\r\r\n\nTincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet. There are many variations of passages of available but the majority have suffered.\n\n[Read More](/technical)"
         type: contentleftcontentright
     type: section
+  - sectionvalue:
+      - leftmarkdown: "## \rLive-Chat Solutions\r\r\n\nTincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet. There are many variations of passages of available but the majority have suffered.\n\n[Read More](/live-chat)"
+        rightmarkdown: '![live-chat](/assets/livechat.png "live-chat")'
+        type: contentleftcontentright
+    type: section
 ---
 
