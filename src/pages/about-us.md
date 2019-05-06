@@ -69,5 +69,32 @@ content:
           mattis vulputate.
         type: contentleftcontentright
     type: section
+  - sectionvalue:
+      - leftmarkdown: '![Why](/assets/why.png "Why")'
+        rightmarkdown: >-
+          ## Why UNDERGUARD
+
+
+          When you work with us, we expect our clients to want and demand the
+          best service, as such, we often want and demand the best from our
+          clients. 
+
+
+          Having a common goal, is what allows us to put forth the absolute best
+          product offering in your market. We understand you can work with any
+          call-center in the world, but when choosing us, you deserve and expect
+          the best. 
+
+
+          Investing heavily in training, support and infrastructure is why we’ve
+          grown such strong relationships in our markets. 
+
+
+          Our agent training process is second to none, leaving only around 30%
+          of our original hires to begin working on our call floor. Through this
+          extensive process, only the most qualified individuals service calls
+          for our clients.
+        type: contentleftcontentright
+    type: section
 ---
 
