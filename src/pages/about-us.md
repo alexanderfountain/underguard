@@ -96,5 +96,22 @@ content:
           for our clients.
         type: contentleftcontentright
     type: section
+  - sectionvalue:
+      - leftmarkdown: >-
+          ## Out Commitment
+
+
+          It’s our objective to learn not just about your product, but your
+          entire product offering. By having all the inner workings at our
+          fingertips, successfully allowing our team to have the knowledge and
+          information to resolve any caller’s questions or concerns. 
+
+
+          Larger call-centers often outsource work overseas or hire agents to
+          work from home, but this can get very sloppy and level of work quality
+          very poor as a result.
+        rightmarkdown: '![Video](/assets/video.png "Video")'
+        type: contentleftcontentright
+    type: section
 ---
 
