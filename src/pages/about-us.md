@@ -98,7 +98,7 @@ content:
     type: section
   - sectionvalue:
       - leftmarkdown: >-
-          ## Out Commitment
+          ## Our Commitment
 
 
           It’s our objective to learn not just about your product, but your
