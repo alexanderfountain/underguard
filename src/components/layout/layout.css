@@ -343,3 +343,58 @@ button{
   background-color:white;
   text-align:center;
 }
+#services_services a{
+  margin-top:50px;
+  display:inline-block;
+  cursor: pointer;
+    font-weight: bold !important;
+    background-color: #DE7204;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: 2px solid #DE7204 !important;
+    color:white;
+}
+#outbound a{
+  margin-top:50px;
+  display:inline-block;
+  cursor: pointer;
+    font-weight: bold !important;
+    background-color: #DE7204;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: 2px solid #DE7204 !important;
+    color:white;
+}
+#technical a{
+  margin-top:50px;
+  display:inline-block;
+  cursor: pointer;
+    font-weight: bold !important;
+    background-color: #DE7204;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: 2px solid #DE7204 !important;
+    color:white;
+}
+#chat a{
+  margin-top:50px;
+  display:inline-block;
+  cursor: pointer;
+    font-weight: bold !important;
+    background-color: #DE7204;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: 2px solid #DE7204 !important;
+    color:white;
+}
+#custom a{
+  margin-top:50px;
+  display:inline-block;
+  cursor: pointer;
+    font-weight: bold !important;
+    background-color: #DE7204;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: 2px solid #DE7204 !important;
+    color:white;
+}
