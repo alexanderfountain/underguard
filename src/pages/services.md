@@ -2,7 +2,8 @@
 title: Services
 templateKey: page
 content:
-  - sectionvalue:
+  - sectionid: services_services
+    sectionvalue:
       - leftmarkdown: |-
           ## Call Center Services that fit Your Business.
 
@@ -10,7 +11,8 @@ content:
         rightmarkdown: '![Services](/assets/4icons.png "Services")'
         type: contentleftcontentright
     type: section
-  - sectionvalue:
+  - sectionid: outbound
+    sectionvalue:
       - leftmarkdown: >-
           ##  Outbound Call Center Solutions.
 
@@ -25,8 +27,10 @@ content:
           [Read More](/solutions)
         rightmarkdown: '![Megaphone](/assets/megaphone.png "Megaphone")'
         type: contentleftcontentright
+    textcolor: technical
     type: section
-  - sectionvalue:
+  - sectionid: technical
+    sectionvalue:
       - leftmarkdown: '![Tech](/assets/tech.png "Tech")'
         rightmarkdown: >-
           ## Technical Support & User Experience.
@@ -41,7 +45,8 @@ content:
           [Read More](/technical)
         type: contentleftcontentright
     type: section
-  - sectionvalue:
+  - sectionid: chat
+    sectionvalue:
       - leftmarkdown: >-
           ## Live-Chat Solutions
 
@@ -57,7 +62,8 @@ content:
         rightmarkdown: '![live-chat](/assets/livechat.png "live-chat")'
         type: contentleftcontentright
     type: section
-  - sectionvalue:
+  - sectionid: custom
+    sectionvalue:
       - leftmarkdown: '![Custom Call](/assets/customcallcenter.png "Custom Call")'
         rightmarkdown: >-
           ## Custom Call Center Solution
