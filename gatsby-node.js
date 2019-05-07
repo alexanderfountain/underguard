@@ -50,6 +50,7 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node)
+  const { frontmatter } = node
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
@@ -58,5 +59,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    if (frontmatter) {
+      const { content } = frontmatter
+      if (content) {
+        const { backgroundimage } = content
+        if (backgroundimage) {
+          if (backgroundimage.indexOf('/img') === 0) {
+            frontmatter.content.backgroundimage = path.relative(
+              path.dirname(node.fileAbsolutePath),
+              path.join(__dirname, '/static/', backgroundimage)
+            )
+          }
+        }
+      }
+    }
   }
 }
