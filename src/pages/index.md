@@ -95,7 +95,7 @@ content:
     sectionvalue:
       - columnmarkdown:
           - markdown: >-
-              ### Inbound Call Center Services
+              ### Inbound Call Center
 
 
               Great customer service is central your business success.
@@ -114,7 +114,7 @@ content:
 
               * Product Returns / RMA
           - markdown: >-
-              ### Outbound Call Center Services
+              ### Outbound Call Center
 
 
               Underguard's Outbound services can increase sales and customer
@@ -133,7 +133,7 @@ content:
 
               * Generating Leads
           - markdown: >-
-              ### Non-Voice Services
+              ### Non-Voice & Back-Office
 
 
               Underguard can support your business needs in a variety of other
