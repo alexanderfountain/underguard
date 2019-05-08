@@ -64,10 +64,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       if (content) {
         const { backgroundimage } = content
         if (backgroundimage) {
-          if (backgroundimage.indexOf('/img') === 0) {
+          if (backgroundimage.indexOf('/assets') === 0) {
             frontmatter.content.backgroundimage = path.relative(
               path.dirname(node.fileAbsolutePath),
-              path.join(__dirname, '/static/assets', backgroundimage)
+              path.join(__dirname, '/static/assets/', backgroundimage)
             )
           }
         }
