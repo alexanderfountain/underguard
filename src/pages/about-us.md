@@ -2,9 +2,7 @@
 title: About Us
 templateKey: page
 content:
-  - backgroundimage: ''
     pagetitle: false
-    sectiontitle: ''
     sectionvalue:
       - leftmarkdown: >-
           # About Us
