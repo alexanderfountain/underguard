@@ -50,14 +50,14 @@ export const BlogPostTemplate = ({
   slug,
 }) => {
   const PostContent = contentComponent
-  const canonical = `https://1986.io${slug}`
+  const canonical = `https://www.ugteleservices.com${slug}`
   return (
 
     <Layout>
 
 <Helmet>
       <meta charSet="utf-8" />
-      <title>1986.io | {title}</title>
+      <title>Underguard Teleservices | {title}</title>
       <link rel="canonical" href={canonical}></link>
       </Helmet>
       <section className="section" style={{paddingBottom:'40px'}}>
