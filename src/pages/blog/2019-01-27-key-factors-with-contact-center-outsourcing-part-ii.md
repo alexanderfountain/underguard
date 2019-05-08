@@ -13,7 +13,7 @@ description: >-
 tags:
   - Outsourcing
 ---
-While the affordability and accessibility of outsourcing is attractive, it is critical to evaluate potential providers before confirming your commitment to a BPO contact center. Experience, capacity and a commitment to building your brand top the list, since a contact center lacking in any of the above will hurt your business far more than it will help..
+While the affordability and accessibility of outsourcing is attractive, it is critical to evaluate potential providers before confirming your commitment to a BPO contact center. Experience, capacity and a commitment to building your brand top the list, since a contact center lacking in any of the above will hurt your business far more than it will help.
 
 **Industry Experience**
 
