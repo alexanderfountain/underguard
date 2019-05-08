@@ -1,10 +1,10 @@
 ---
-title: Case Study
+title: Case Studies
 templateKey: page
 content:
   - backgroundimage: /assets/achievement-adult-agreement-327540.jpg
     pagetitle: true
-    sectiontitle: Case Study
+    sectiontitle: Case Studies
     type: section
   - sectionvalue:
       - markdown: >-
