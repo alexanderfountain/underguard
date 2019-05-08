@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Key Factors with Contact Center Outsourcing part II
 author: Kyle Hannah
-image: /assets/pexels-photo-886465.jpeg
+image: /assets/pexels-photo-886465.jpg
 date: 2019-01-27T18:04:31.386Z
 description: >-
   While the affordability and accessibility of outsourcing is attractive, it is

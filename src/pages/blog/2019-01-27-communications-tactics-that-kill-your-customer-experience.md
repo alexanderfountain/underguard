@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Communications Tactics that KILL your Customer Experience
 author: Kyle Hannah
-image: /assets/pexels-photo-1249158.jpeg
+image: /assets/pexels-photo-1249158.jpg
 date: 2019-01-27T18:07:42.165Z
 description: >-
   It’s easy for business leaders to focus on the high-level strategic things
