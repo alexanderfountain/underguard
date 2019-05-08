@@ -62,7 +62,7 @@ export const BlogPostTemplate = ({
       </Helmet>
       <section className="section" style={{paddingBottom:'40px'}}>
       <Container>
-      <Blogfullcontainer style={{marginTop:'135px'}}>
+      <Blogfullcontainer style={{paddingTop:'135px'}}>
       <Blogleft>
       <h1 style={{marginTop:'5px'}}>{title}</h1>
       <div className="who" style={{marginBottom:'20px'}}>

@@ -67,7 +67,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
           if (backgroundimage.indexOf('/img') === 0) {
             frontmatter.content.backgroundimage = path.relative(
               path.dirname(node.fileAbsolutePath),
-              path.join(__dirname, '/static/', backgroundimage)
+              path.join(__dirname, '/static/assets', backgroundimage)
             )
           }
         }
