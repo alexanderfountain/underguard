@@ -89,8 +89,9 @@ content:
     type: section
   - backgroundcolor: '#f2f2f2'
     backgroundimage: ''
+    pagetitle: false
     sectionid: inboundoutbound
-    sectiontitle: Inbound and Outbound Services
+    sectiontitle: 'Your Business Needs, Our Services'
     sectionvalue:
       - columnmarkdown:
           - markdown: >-
@@ -150,6 +151,7 @@ content:
               * Workforce Management and Capacity Planning
         columnnumber: '3'
         type: columns
+    sectionwidth: false
     type: section
   - pagetitle: false
     sectionid: recent_blogs
