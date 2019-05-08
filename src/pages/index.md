@@ -60,9 +60,8 @@ content:
           ## Customer Engagement
 
 
-          Have peace of mind knowing Underguard takes engagement to a new level,
-          allowing you to focus on your main objective, acquiring more
-          customers.
+          Have peace of mind knowing Underguard is here to serve your customers,
+          allowing you to focus on your main priority, growing your business.
         type: markdown
       - markdown: >-
           **REDEFINED**
