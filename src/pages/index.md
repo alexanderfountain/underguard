@@ -64,12 +64,15 @@ content:
           allowing you to focus on your main objective, acquiring more
           customers.
         type: markdown
-      - markdown: |-
+      - markdown: >-
           **REDEFINED**
 
-          ## Telemarketing
 
-          Drive Revenue. Stimulate Business Growth.
+          ## Consumer Marketing
+
+
+          Our Outbound process enables your business to increase revenues, drive
+          customer feedback and create new opportunities.
         type: markdown
       - markdown: >-
           **REDEFINED**
@@ -91,44 +94,66 @@ content:
     sectionvalue:
       - columnmarkdown:
           - markdown: >-
-              ## Inbound Support Service
+              ## Inbound Call Center Services
 
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
-              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
-              munus dicis non equidem recuso, sed te adiungo socium. Tecum
-              optime, deinde etiam cum mediocri amico.
+              Great customer service is central your business success.
+              Underguard will support your business in the following ways:
 
 
-              [Learn More](/services)
+              * Subscription Product / Campaign Support
+
+              * Quick Launch Support Services
+
+              * Retention / Cancellation Saves Support
+
+              * Order Management & Account Verification
+
+              * Billing Inquiries
+
+              * Product Returns / RMA
           - markdown: >-
-              ## Inbound Support Service
+              ## Outbound Call Center Services
 
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
-              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
-              munus dicis non equidem recuso, sed te adiungo socium. Tecum
-              optime, deinde etiam cum mediocri amico.
+              Underugard's Outbound services can increase sales and customer
+              engagement. Underguard will support your outbound needs by:
 
 
-              [Learn More](/services)
+              * Telemarketing
+
+              * Market Research & Consumer Surveys
+
+              * Appointment Setting
+
+              * Order Management & Account Verification
+
+              * Collections / Account Declines
+
+              * Generating Leads
           - markdown: >-
-              ## Inbound Support Service
+              ## Non-Voice Services
 
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Age sane,
-              inquam. Tibi hoc incredibile, quod beatissimum. Quod autem meum
-              munus dicis non equidem recuso, sed te adiungo socium. Tecum
-              optime, deinde etiam cum mediocri amico.
+              Underguard can support your business needs in a variety of other
+              ways, including:
 
 
-              [Learn More](/services)
+              * Live-Chat Support / Sales
+
+              * Email Support
+
+              * Back-office support
+
+              * Quality Assurance Services
+
+              * Workforce Management and Capacity Planning
         columnnumber: '3'
         type: columns
     type: section
   - pagetitle: false
     sectionid: recent_blogs
-    sectiontitle: Read our Blog
+    sectiontitle: Check out our Blog
     sectionvalue:
       - type: bloglist
     type: section
