@@ -22,7 +22,7 @@ content:
           Capabilities to meet your Business needs.
 
 
-          [Read More](/solutions)
+          [Contact Us](/contact)
         rightmarkdown: '![Megaphone](/assets/megaphone.png "Megaphone")'
         type: contentleftcontentright
     textcolor: technical
@@ -40,7 +40,7 @@ content:
           skilled in the tech support areas to serve your customer's.
 
 
-          [Read More](/technical)
+          [Contact Us](/contact)
         type: contentleftcontentright
     type: section
   - sectionid: chat
@@ -55,7 +55,7 @@ content:
           and to increase sales.
 
 
-          [Read More](/live-chat)
+          [Contact Us](/contact)
         rightmarkdown: '![live-chat](/assets/livechat.png "live-chat")'
         type: contentleftcontentright
     type: section
@@ -72,7 +72,7 @@ content:
           Approach can help revolutionize your call center outsourcing.
 
 
-          [Read More](/custom)
+          [Contact Us](/contact)
         type: contentleftcontentright
     type: section
 ---
