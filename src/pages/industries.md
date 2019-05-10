@@ -18,12 +18,14 @@ content:
           have the published version live.
 
 
-          In the meantime, please contact us Here, by email at
-          info@ugteleservices.com or by phone 1-763-250-7432 to answer any
-          questions.
+          In the meantime, please contact us
+          [Here](https://www.ugteleservices.com/contact) , by email at
+          [info@ugteleservices.com](info@ugteleservices.com) or by phone
+          1-763-250-7432 to answer any questions.
 
 
-          Thank you for visiting www.ugteleservices.com/industries
+          Thank you for visiting
+          [www.ugteleservices.com/industries](https://www.ugteleservices.com/industries/)
 
 
           ##
