@@ -21,8 +21,7 @@ content:
 
           In the meantime, please contact us
           [Here](https://www.ugteleservices.com/contact) , email us
-          [info@ugteleservices.com](info@ugteleservices.com) or reach us by
-          phone at 763-250-7432
+          <mailto:info@ugteleservices.com> or reach us by phone at 763-250-7432
 
 
           #
