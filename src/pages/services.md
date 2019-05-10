@@ -5,7 +5,7 @@ content:
   - sectionid: services_services
     sectionvalue:
       - leftmarkdown: |-
-          ## Call Center Services that fit Your Business.
+          ## Call Center Services Designed for Your Business.
 
           [Get A Free Quote](/contact)
         rightmarkdown: '![Services](/assets/4icons.png "Services")'
@@ -14,14 +14,12 @@ content:
   - sectionid: outbound
     sectionvalue:
       - leftmarkdown: >-
-          ##  Outbound Call Center Solutions.
+          ##  Inbound Call Center Solutions.
 
 
-          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
-          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
-          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
-          aliquet. There are many variations of passages of available but the
-          majority have suffered.
+          From Customer Care, Retention, Product Launches, Product Return and
+          Refund Support, Underguard has the Inbound Call Center Service
+          Capabilities to meet your Business needs.
 
 
           [Read More](/solutions)
@@ -35,11 +33,11 @@ content:
         rightmarkdown: >-
           ## Technical Support & User Experience.
 
-          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
-          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
-          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
-          aliquet. There are many variations of passages of available but the
-          majority have suffered.
+
+          Technical support matters range from Password Resets to Video and
+          Audio playback and general technical support issues. From mobile phone
+          devices to software products, Underguard's agent support team is
+          skilled in the tech support areas to serve your customer's.
 
 
           [Read More](/technical)
@@ -51,11 +49,10 @@ content:
           ## Live-Chat Solutions
 
 
-          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
-          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
-          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
-          aliquet. There are many variations of passages of available but the
-          majority have suffered.
+          Underguard can deploy a live-chat service from your website, engaging
+          your customers at the time they are most interested in your products
+          and services. Live-chat provides get ROI for your company in support
+          and to increase sales.
 
 
           [Read More](/live-chat)
@@ -66,14 +63,13 @@ content:
     sectionvalue:
       - leftmarkdown: '![Custom Call](/assets/customcallcenter.png "Custom Call")'
         rightmarkdown: >-
-          ## Custom Call Center Solution
+          ## Custom Call Center Solutions
 
 
-          Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc
-          amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla
-          leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus
-          aliquet. There are many variations of passages of available but the
-          majority have suffered.
+          Inbound, Outbound and Blended Solutions, Underguard can semi customize
+          or fully customize a Solution to meet your Vision. Contact us today to
+          setup a Free Consultation to discover how Underguard's Smart Sourcing
+          Approach can help revolutionize your call center outsourcing.
 
 
           [Read More](/custom)
