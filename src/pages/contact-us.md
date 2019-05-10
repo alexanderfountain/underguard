@@ -2,7 +2,9 @@
 title: Contact Us
 templateKey: page
 content:
-  - sectionid: maincontact
+  - pagetitle: true
+    sectionid: maincontact
+    sectiontitle: Contact Us
     sectionvalue:
       - formname: maincontact
         markdown: |-
