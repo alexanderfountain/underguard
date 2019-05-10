@@ -33,9 +33,7 @@ content:
 
 
           Changing Lives one Outsourced Call at a Time. Underguard delivers the
-          Speed, Quality and Budget Critical to your Business Success.\
-
-          Get in Contact with us!
+          Speed, Quality and Budget Critical to your Business Success.
         type: markdown
       - markdown: FREE QUOTE
         type: form
@@ -43,12 +41,12 @@ content:
   - backgroundimage: /assets/module2bg.png
     sectionid: customerservice
     sectionvalue:
-      - markdown: |-
+      - markdown: >-
           ## REDEFINED
 
-          Customer Service
 
-          Stimulate business growth and elevate customer experience.
+          By Reducing Recidivism and drag on Community Services, Underguard is
+          on a Mission to Change the way Call Centers Operate.
         type: markdown
     type: section
   - backgroundimage: /assets/whatwedo.png
