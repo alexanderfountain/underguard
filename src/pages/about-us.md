@@ -9,34 +9,53 @@ content:
           # About Us
 
 
-          The Most Inspirational Business Story in America
+          The Most Inspirational Business Story in America.
 
 
-          **Customer Service.** Cras nisl lacus, malesuada non tempor a,
-          volutpat suscipit ante. ??Planning the author's largest lorem to a
-          Beatles song or members. Cras nisl lacus, malesuada non tempor a,
-          volutpat suscipit ante. Planning the author's largest lorem to a
-          Beatles song or members. Class began Employment torques for our
-          marriage, by nceptos himenaeos. However, the volleyball temperature.
-          Vivamus placerat urna nec est mattis vulputate.
+          Underguard Teleservices first opened its doors in 2017, with its
+          headquarters located about 1 hour north of Memphis, Tennessee.
+          Underguard’s Founder Casey Hannah, started the company because he
+          realized several areas of opportunity after serving 6 years as a Call
+          Center Director for a Private call center outsourcing Company. Those
+          areas were centered around Cost, Employee Turnover and Talent
+          Recruitment. He realized the cost of doing business in America was
+          rising. When he began as a Director, minimum wage in Minnesota was at
+          $7.25 and in 2019 some parts of Minnesota are on their way to $15.00.
+          As the call center is a People first business, the operational costs
+          were on track to increase by over 100% due to wages. The increase in
+          business costs had to be passed through to the clients and some
+          clients had little choice but to take their business to the
+          Philippines or Pakistan, as some did.  So he began to explore ways in
+          solving this while maintaining the USA presence which the company was
+          built upon.
 
 
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          ??Planning the author's largest lorem to a Beatles song or members.
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          Planning the author's largest lorem to a Beatles song or members.
-          Class began Employment torques for our marriage, by nceptos himenaeos.
-          However, the volleyball temperature. Vivamus placerat urna nec est
-          mattis vulputate.
+          The next challenge was Employee Turnover. Casey created a one of a
+          kind culture in the call center, he was responsible for routinely
+          making breakfast for his staff, taking them out for pizza and buffalo
+          wings on the weekends and having an employee designed attendance
+          policy, empowering his staff to create policies which they greatly
+          appreciated (under his guidance of course). Even with this unique
+          culture, Casey noticed people would leave for higher paying jobs or
+          jobs that became available closer to their homes. He began to think
+          there must be a better way.
 
 
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          ??Planning the author's largest lorem to a Beatles song or members.
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          Planning the author's largest lorem to a Beatles song or members.
-          Class began Employment torques for our marriage, by nceptos himenaeos.
-          However, the volleyball temperature. Vivamus placerat urna nec est
-          mattis vulputate.
+          The third challenge Casey encountered was attracting the right people
+          for the call center job. With around an 80% annual turnover rate
+          (still below the national average), the talent pool in the area got
+          more scarce after the site had been operational for a few years. To
+          attract employees the company had to increase it’s starting wages and
+          perks to get employees to show up, which had an overall effect on the
+          companies profitability.
+
+
+          **The Result?** An idea that would be unique, even controversial in
+          its approach to Call Center Management. It would manifest to the
+          “Smart Sourcing” approach where the company would partner with
+          Correctional Facilities and put Inmates in the driver seat as part of
+          a job development, skills program. The company would employ US
+          citizens service a minimum sentence and Underguard bring in its
         rightmarkdown: '![](/assets/about.png)'
         type: contentleftcontentright
     type: section
@@ -50,22 +69,21 @@ content:
           **A Man With A Vision**
 
 
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          ??Planning the author's largest lorem to a Beatles song or members.
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          Planning the author's largest lorem to a Beatles song or members.
-          Class began Employment torques for our marriage, by nceptos himenaeos.
-          However, the volleyball temperature. Vivamus placerat urna nec est
-          mattis vulputate.
+          Casey Hannah was a one of a kind Entrepreneur, Minister, Father,
+          Brother, Husband and Son. Casey passed away unexpectedly in October
+          2018, leaving behind a legacy of Accomplishment, Inspiration, Kindness
+          and a life centered around Serving others.
 
 
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          ??Planning the author's largest lorem to a Beatles song or members.
-          Cras nisl lacus, malesuada non tempor a, volutpat suscipit ante.
-          Planning the author's largest lorem to a Beatles song or members.
-          Class began Employment torques for our marriage, by nceptos himenaeos.
-          However, the volleyball temperature. Vivamus placerat urna nec est
-          mattis vulputate.
+          Casey was the man responsible for founding Underguard in 2017. Casey
+          transformed his life at age 26, turning from Drugs and Crime to a life
+          of Ministry, Fatherhood and Business. Casey went on to start Ten
+          businesses in his life, finding opportunities in everything. Casey was
+          a God Fearing man and lead many people to the Lord during his
+          lifetime, including his son and daughter, Kelly and Kyle. As of 2019
+          Kyle and Kelly are humbly leading Underguard in serving their father,
+          determined to continue his business vision of Hope and Serving others
+          into the future.
         type: contentleftcontentright
     type: section
   - sectionvalue:
