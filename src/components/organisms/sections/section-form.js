@@ -40,10 +40,10 @@ const SectionForm = ({object}) => {
 	const {markdown} = object
 	return(
 <SectionFormStyle className="section-form">
-<Form>
-<div dangerouslySetInnerHTML={{ __html: converter.makeHtml(markdown) }} />
-<form name="homecontact" method="post" action="/thank-you" netlify-honeypot="bot-field" data-netlify="true">
-			<input type="hidden" name="form-name" value="homecontact" />
+<Form className="form-container">
+<div className="form-markdown" dangerouslySetInnerHTML={{ __html: converter.makeHtml(markdown) }} />
+<form name={object.formname} method="post" action="/thank-you" netlify-honeypot="bot-field" data-netlify="true">
+			<input type="hidden" name="form-name" value={object.formname}  />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
 								<div class="form-group">
 									<label for="name" class="lb-name">NAME</label>

@@ -82,7 +82,7 @@ const Menu = () => (
         <li key={index}><Link to={menuitem.link}>{menuitem.name}</Link></li>
       ))}
       <li className="number"><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
-      <li><a class="button-orange-cta" href="#">FREE QUOTE</a></li>
+      <li><a class="button-orange-cta" href="/contact-us">FREE QUOTE</a></li>
     </ul>
     </Nav>
   </>

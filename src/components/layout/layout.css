@@ -398,3 +398,12 @@ button{
     border: 2px solid #DE7204 !important;
     color:white;
 }
+#maincontact .form-container{
+  display:flex;
+}
+#maincontact .form-container .form-markdown{
+  flex-basis:25%;
+}
+#maincontact .form-container form{
+  flex-basis:calc(75% - 20px);
+}

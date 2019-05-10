@@ -73,6 +73,7 @@ export const PageQuery = graphql`
             leftmarkdown
             rightmarkdown
             columnnumber
+            formname
             columnmarkdown{
               markdown
             }
