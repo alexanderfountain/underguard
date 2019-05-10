@@ -11,9 +11,9 @@ content:
 
           ## REDEFINED.
 
-          * Elevate Customer Experience
-          * Increase Social Responsibility
-          * Improve Lifetime Customer Value
+          * Unmatched Scale, Cost and Flexibility
+          * Reducing America's Recidivism
+          * Positively Impacting People's Lives
           * 100% USA Based Agents
 
           [LEARN MORE](/services)
