@@ -32,7 +32,7 @@ content:
           #### Call Center Outsourcing.
 
 
-          Changing Lives, One Outsourced Call at a Time. Underguard delivers
+          Changing Lives one Outsourced Call at a Time. Underguard delivers the
           Speed, Quality and Budget Critical to your Business Success.\
 
           Get in Contact with us!
