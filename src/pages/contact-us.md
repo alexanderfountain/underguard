@@ -2,9 +2,13 @@
 title: Contact Us
 templateKey: page
 content:
-  - pagetitle: true
-    sectionid: maincontact
+  - backgroundimage: /assets/contact2.jpeg
+    pagetitle: true
     sectiontitle: Contact Us
+    type: section
+  - pagetitle: false
+    sectionid: maincontact
+    sectiontitle: ''
     sectionvalue:
       - formname: maincontact
         markdown: |-
