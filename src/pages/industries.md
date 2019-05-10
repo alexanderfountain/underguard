@@ -20,9 +20,8 @@ content:
 
           In the meantime, please contact us
           [Here](https://www.ugteleservices.com/contact) , by email at
-          [info@ugteleservices.com](mail:info@ugteleservices.com) or by phone at
-          1-763-250-7432 and speak with a representative to answer any
-          questions.
+          <mailto:info@ugteleservices.com> or by phone at 1-763-250-7432 and
+          speak with a representative to answer any questions.
 
 
           Thank you for visiting
