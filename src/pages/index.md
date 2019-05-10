@@ -13,7 +13,7 @@ content:
 
           * Unmatched Scale, Cost and Flexibility
           * Reducing America's Recidivism
-          * Positively Impacting People's Lives
+          * Industry low Attrition and Shrinkage
           * 100% USA Based Agents
 
           [LEARN MORE](/services)
@@ -32,9 +32,10 @@ content:
           #### Call Center Outsourcing.
 
 
-          Innovative, equip jobs skills, accelerate community re-integration,
-          family reunification, reduction in recidivism, reduce drag on
-          community services = Redefined Outsourcing.
+          Changing Lives, One Outsourced Call at a Time. Underguard delivers
+          Speed, Quality and Budget Critical to your Business Success.\
+
+          Get in Contact with us!
         type: markdown
       - markdown: FREE QUOTE
         type: form
