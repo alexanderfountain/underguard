@@ -16,37 +16,35 @@ content:
           headquarters located about 1 hour north of Memphis, Tennessee.
           Underguard’s Founder Casey Hannah, started the company because he
           realized several areas of opportunity after serving 6 years as a Call
-          Center Director for a Private call center outsourcing Company. Those
-          areas were centered around Cost, Employee Turnover and Talent
-          Recruitment. He realized the cost of doing business in America was
-          rising. When he began as a Director, minimum wage in Minnesota was at
-          $7.25 and in 2019 some parts of Minnesota are on their way to $15.00.
-          As the call center is a People first business, the operational costs
-          were on track to increase by over 100% due to wages. The increase in
-          business costs had to be passed through to the clients and some
-          clients had little choice but to take their business to the
-          Philippines or Pakistan, as some did.  So he began to explore ways in
-          solving this while maintaining the USA presence which the company was
-          built upon.
+          Center Director at a boutique call center outsourcing Company. Those
+          areas were in Cost, Employee Turnover and Talent Recruitment. He
+          recognized the cost of doing business in America was rising. When he
+          began as a Director, minimum wage in Minnesota was $7.25 and in 2019
+          some parts of Minnesota are on their way to $15.00. As such the
+          operational costs were on track to increase over 100%. This increase
+          in cost had to be passed thru to the client and some clients had
+          little choice but to take their business to the Philippines or
+          Pakistan, as some did.  So he began to explore ways in solving this
+          while maintaining the USA footprint the company was built upon.
 
 
-          The next challenge was Employee Turnover. Casey created a one of a
+          A second challenge was Employee Turnover. Casey created a one of a
           kind culture in the call center, he was responsible for routinely
           making breakfast for his staff, taking them out for pizza and buffalo
           wings on the weekends and having an employee designed attendance
           policy, empowering his staff to create policies which they greatly
           appreciated (under his guidance of course). Even with this unique
           culture, Casey noticed people would leave for higher paying jobs or
-          jobs that became available closer to their homes. He began to think
-          there must be a better way.
+          jobs that became available closer to their homes. He began to think of
+          how to address this.
 
 
           The third challenge Casey encountered was attracting the right people
           for the call center job. With around an 80% annual turnover rate
-          (still below the national average), the talent pool in the area got
-          more scarce after the site had been operational for a few years. To
+          (still below a national average), the talent pool in the community
+          became more scarce after the site had been operational a few years. To
           attract employees the company had to increase it’s starting wages and
-          perks to get employees to show up, which had an overall effect on the
+          perks to get employees to respond which had an overall effect on the
           companies profitability.
 
 
