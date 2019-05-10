@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import * as variable from '../../variables';
 import Form from "../../form";
+import showdown from "showdown"
+
+const converter = new showdown.Converter()
 
 
 const SectionFormStyle = styled.section`
@@ -38,7 +41,7 @@ const SectionForm = ({object}) => {
 	return(
 <SectionFormStyle className="section-form">
 <Form>
-<h3>{markdown}</h3>
+<div dangerouslySetInnerHTML={{ __html: converter.makeHtml(markdown) }} />
 <form name="homecontact" method="post" action="/thank-you" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="homecontact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>

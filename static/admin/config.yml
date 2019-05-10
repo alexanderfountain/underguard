@@ -52,6 +52,7 @@ collections:
                 ]}
               ]},
               {label: "Form", name: "form", widget: "object", required: false, fields: [
+                {label: "Form Name", name: "formname", widget: "string", required: true},
                 {label: "Markdown", name: "markdown", widget: "markdown", required: false}
               ]},
               {label: "Blog List", name: "bloglist", widget: "object", description: "List of blog teasers will be rendered.", required: false, fields: [

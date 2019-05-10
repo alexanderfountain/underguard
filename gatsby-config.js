@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         name:'contact',
-        link:'/contact'
+        link:'/contact-us'
       }
     ],
   },
