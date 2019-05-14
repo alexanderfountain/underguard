@@ -83,7 +83,6 @@ const Mobilemenu = () => (
       {data.site.siteMetadata.menuLinks.map((menuitem, index) =>(
         <li key={index}><Link to={menuitem.link}>{menuitem.name}</Link></li>
       ))}
-      <li className="mobile-contact"><Link to="/contact">Contact</Link></li>
       <li className="mobile-quote"><Link to="/contact-us">FREE QUOTE</Link></li>
       <li className="number"><span>US. CA.</span><a href="tel:+1-763-742-2022">+1-763-742-2022</a></li>
       <div className="menu-social-holder">

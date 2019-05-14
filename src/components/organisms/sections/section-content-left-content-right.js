@@ -10,6 +10,9 @@ const SectionContentLeftContentRightStyle = styled.section`
     display:flex;
     justify-content:space-between;
     align-items:center;
+    @media (max-width: ${variable.mobileWidth}) {
+        display:block;
+    }
     .content-left{
         flex-basis:50%;
     }

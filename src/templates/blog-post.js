@@ -80,7 +80,7 @@ export const BlogPostTemplate = ({
       <Form style={{position:'sticky', top:'145px'}}>
         <h6>Contact Us</h6>
         <p>Fill out the form below.</p>
-      <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="blogcontact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 			<input type="hidden" name="form-name" value="contact" />
 			<p hidden> <label htmlFor="bot-field">Don’t fill this out:{' '}<input name="bot-field" /> </label> </p>
 								<div class="form-group">
@@ -96,9 +96,7 @@ export const BlogPostTemplate = ({
 									<textarea name="textarea" id="textarea" placeholder="Message" class="textarea form-control" data-required="true" data-trim="true"/>
 								</div>
 								<div>
-									{/* <Styledlink text="Contact">
-                  Contact
-                  </Styledbutton> */}
+									<button type="submit" class="btn btn-submit">SEND MESSAGE</button>
 								</div>
 							</form>
           </Form>

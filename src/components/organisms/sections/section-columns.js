@@ -9,6 +9,12 @@ const converter = new showdown.Converter()
 const SectionColumnsStyle = styled.section`
     display:flex;
     justify-content:space-between;
+    @media (max-width: ${variable.mobileWidth}) {
+        display:block;
+    }
+    .column-content{
+        margin-bottom:20px;
+    }
     &.columns-2{
         .column-content{
             flex-basis:calc(100% / 2 - 10px);
