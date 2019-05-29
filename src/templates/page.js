@@ -5,11 +5,11 @@ import Layout from "../components/layout/layout";
 import Section from "../components/organisms/sections/section"
 import Helmet from 'react-helmet'
 
-export const PageTemplate = ({ title, content }) => {
+export const PageTemplate = ({ title, content, pageid }) => {
 
   return (
     
-    <main id="main" className="main">
+    <main id={pageid} className="main">
       <Helmet>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
       </Helmet>
@@ -31,6 +31,7 @@ const Page = ({ data }) => {
   return (
     <Layout>
       <PageTemplate
+        pageid={post.frontmatter.pageid}
         title={post.frontmatter.title}
         content={post.frontmatter.content}
       />
@@ -54,6 +55,7 @@ export const PageQuery = graphql`
       html
       frontmatter {
         title
+        pageid
         content {
           sectiontitle
           sectionid

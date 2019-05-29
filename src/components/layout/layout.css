@@ -415,3 +415,12 @@ button{
 #maincontact .form-container form{
   flex-basis:calc(75% - 20px);
 }
+#industries ul{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0px;
+  padding:0px;
+}
+#industries ul li{
+  margin-left:30px;
+}
