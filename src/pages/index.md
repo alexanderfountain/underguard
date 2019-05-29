@@ -36,7 +36,7 @@ content:
           Speed, Quality and Budget Critical to your Business Success.
         type: markdown
       - formname: homecontact
-        markdown: FREE QUOTE
+        markdown: '## **Get a Quote and Contact Us!**'
         type: form
     type: section
   - backgroundimage: /assets/module2bg.png
