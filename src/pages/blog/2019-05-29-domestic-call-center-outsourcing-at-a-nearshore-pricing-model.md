@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Domestic Call Center Outsourcing at a Nearshore Pricing Model
 author: Kyle Hannah
+image: /assets/ugs-promotion.jpeg
 date: 2019-05-29T15:49:19.849Z
 description: >-
   Read below to discover how Underguard's operating model is changing how call
