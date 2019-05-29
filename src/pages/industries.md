@@ -57,5 +57,10 @@ content:
         rightmarkdown: '![Marketing](/assets/marketing.png "Marketing")'
         type: contentleftcontentright
     type: section
+  - sectionvalue:
+      - leftmarkdown: '![Sub](/assets/sub.png "Sub")'
+        rightmarkdown: "## Subscription Business Model\n\nUnderguard can elevtate your customer experience while\rhelping you achieve your LTV goals for your business. Discover how we can help you achieve your lifetime value goals.\r\n\n* New Product & Campaign Launches\n* Order Taking\n* Seasonal Programs\n* Weekend Support\n\n\n\n* First Call Resolution\r\n* Customer Retention Support\n* CRM\r\n* Customer Accounts & Billing Support\r\n* Return Merchandise Authorization (RMA)"
+        type: contentleftcontentright
+    type: section
 ---
 
