@@ -424,3 +424,12 @@ button{
 #industries ul li{
   margin-left:30px;
 }
+#aboutus{
+  color:black;
+}
+#aboutus .content-left{
+  flex-basis:70%;
+}
+#aboutus .content-right{
+  flex-basis:30%;
+}
