@@ -2,31 +2,11 @@
 title: Industries
 templateKey: page
 content:
-  - backgroundimage: /assets/adults-analysis-brainstorming-1661004.jpg
-    pagetitle: true
-    sectiontitle: Industries
-    type: section
-  - sectionvalue:
-      - markdown: >-
-          # Hello, thank you for visiting.
-
-
-          Our Industries page is currently under construction.
-
-
-          Please check back to this page on or after May 20th, 2019 when we will
-          have the published version live.
-
-
-          In the meantime, please contact us
-          [Here](https://www.ugteleservices.com/contact) , by email at
-          <mailto:info@ugteleservices.com> or by phone at 1-763-250-7432 and
-          speak with a representative to answer any questions.
-
-
-          Thank you for visiting
-          [www.ugteleservices.com/industries](https://www.ugteleservices.com/industries/)
-        type: markdown
+  - pagetitle: false
+    sectionvalue:
+      - leftmarkdown: "eCommerce\n\neCommerce brands need service that separates them from their competition, service as a competitive advantage. \x03Underguard has engineered it’s call center capabilities to help our client achieve more. Here are the ways we can help your company:\n\n* Customer Care / Support        \n* Order Taking            \n* Order Verification                       \n* Customer Retention / Saves    \x03\n* Subscription-based billing      \n* Refund Mitigation  \n* User Experience  Support         \n* Technical Support  \n* New Product Launches             \n* Seasonal Support & Sales           \n* Welcome Calling                         \n* Product Support       \x03 \n* First Call Resolution    \n* FAQ       \n* IVR        \n* RMA     \n* CRM"
+        rightmarkdown: '![](/assets/4icons.png)'
+        type: contentleftcontentright
     type: section
 ---
 
