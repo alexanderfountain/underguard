@@ -1,6 +1,7 @@
 ---
 title: Industries
 templateKey: page
+pageid: Industries
 content:
   - pagetitle: false
     sectionvalue:
