@@ -13,48 +13,29 @@ content:
           The Most Inspirational Business Story in America.
 
 
-          Underguard Teleservices first opened its doors in 2017, with its
-          headquarters located about 1 hour north of Memphis, Tennessee.
-          Underguard’s Founder Casey Hannah, started the company because he
-          realized several areas of opportunity after serving 6 years as a Call
-          Center Director at a boutique call center outsourcing Company. Those
-          areas were in Cost, Employee Turnover and Talent Recruitment. He
-          recognized the cost of doing business in America was rising. When he
-          began as a Director, minimum wage in Minnesota was $7.25 and in 2019
-          some parts of Minnesota are on their way to $15.00. As such the
-          operational costs were on track to increase over 100%. This increase
-          in cost had to be passed thru to the client and some clients had
-          little choice but to take their business to the Philippines or
-          Pakistan, as some did.  So he began to explore ways in solving this
-          while maintaining the USA footprint the company was built upon.
+          Underguard Teleservices is an Impact Driven organization, opening its
+          doors for business in 2017 with a Mission to change how call centers
+          operate.
 
 
-          A second challenge was Employee Turnover. Casey created a one of a
-          kind culture in the call center, he was responsible for routinely
-          making breakfast for his staff, taking them out for pizza and buffalo
-          wings on the weekends and having an employee designed attendance
-          policy, empowering his staff to create policies which they greatly
-          appreciated (under his guidance of course). Even with this unique
-          culture, Casey noticed people would leave for higher paying jobs or
-          jobs that became available closer to their homes. He began to think of
-          how to address this.
+          See there are three challenges call centers commonly face:
 
 
-          The third challenge Casey encountered was attracting the right people
-          for the call center job. With around an 80% annual turnover rate
-          (still below a national average), the talent pool in the community
-          became more scarce after the site had been operational a few years. To
-          attract employees the company had to increase it’s starting wages and
-          perks to get employees to respond which had an overall effect on the
-          companies profitability.
+          1. A Rising cost of Labor
+
+          2. Employee Turnover
+
+          3. Talent Acquisition
 
 
-          **The Result?** An idea that would be unique, even controversial in
-          its approach to Call Center Management. It would manifest to the
-          “Smart Sourcing” approach where the company would partner with
-          Correctional Facilities and put Inmates in the driver seat as part of
-          a job development, skills program. The company would employ US
-          citizens service a minimum sentence and Underguard bring in its
+          **The Underguard Solution?** An idea that would be unique, even
+          controversial in its approach to Call Center Management. It would
+          manifest to the “Smart Sourcing” method of call center management. In
+          partnering with Correctional Facilities and putting inmates in the
+          driver seat toward rehabilitation and developing job skills. Through
+          this unique way of managing a call center, Underguard devised a
+          solution to all three of the call center problems while improving the
+          lives of people and communities which they live in.
         rightmarkdown: '![](/assets/about.png)'
         type: contentleftcontentright
     type: section
