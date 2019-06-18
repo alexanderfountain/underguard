@@ -76,13 +76,12 @@ content:
 
           Casey was the man responsible for founding Underguard in 2017. Casey
           transformed his life at age 26, turning from Drugs and Crime to a life
-          of Ministry, Fatherhood and Business. Casey went on to start Ten
+          of Fatherhood, Ministry and Entrepreneurship. Casey founded ten
           businesses in his life, finding opportunities in everything. Casey was
-          a God Fearing man and lead many people to the Lord during his
-          lifetime, including his son and daughter, Kelly and Kyle. As of 2019
-          Kyle and Kelly are humbly leading Underguard in serving their father,
-          determined to continue his business vision of Hope and Serving others
-          into the future.
+          a God Fearing man yet never judged anyone, regardless of their
+          background or beliefs. As of 2019 Kyle and Kelly are humbly leading
+          Underguard to honor their father's vision, determined to continue his
+          Mission of bringing Hope to the under-served.
         type: contentleftcontentright
     type: section
   - sectionvalue:
