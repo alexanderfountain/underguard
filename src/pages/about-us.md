@@ -96,18 +96,16 @@ content:
 
           Having a common goal, is what allows us to put forth the absolute best
           product offering in your market. We understand you can work with any
-          call-center in the world, but when choosing us, you deserve and expect
-          the best. 
+          call-center, and still when choosing us, you deserve and expect the
+          best. 
 
 
           Investing heavily in training, support and infrastructure is why we’ve
           grown such strong relationships in our markets. 
 
 
-          Our agent training process is second to none, leaving only around 30%
-          of our original hires to begin working on our call floor. Through this
-          extensive process, only the most qualified individuals service calls
-          for our clients.
+          At Underguard we will provide you with an unmatched Quality, Speed and
+          Budget.
         type: contentleftcontentright
     type: section
   - sectionvalue:
@@ -115,15 +113,13 @@ content:
           ## Our Commitment
 
 
-          It’s our objective to learn not just about your product, but your
-          entire product offering. By having all the inner workings at our
-          fingertips, successfully allowing our team to have the knowledge and
-          information to resolve any caller’s questions or concerns. 
+          It’s our objective to learn not just about your business, but your
+          value proposition. Why do your customers buy from you? 
 
 
-          Larger call-centers often outsource work overseas or hire agents to
-          work from home, but this can get very sloppy and level of work quality
-          very poor as a result.
+          By gaining this intimate knowledge, it successfully allows our team to
+          improve your customer satisfaction and deliver a world-class
+          experience to your customers.
         rightmarkdown: '![Video](/assets/video.png "Video")'
         type: contentleftcontentright
     type: section
