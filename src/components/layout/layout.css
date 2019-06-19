@@ -428,8 +428,9 @@ button{
   color:black;
 }
 #aboutus .content-left{
-  flex-basis:70%;
+  flex-basis:60%;
 }
 #aboutus .content-right{
-  flex-basis:30%;
+  flex-basis:40%;
+  padding: 50px 0px;
 }
