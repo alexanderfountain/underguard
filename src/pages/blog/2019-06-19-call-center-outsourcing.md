@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Call Center Outsourcing
 author: Underguard Teleservices
+image: /assets/call-center-alley.jpg
 date: 2019-06-18T17:23:00.000Z
 description: >-
   Call center outsourcing can seem complex. Let Underguard guide you through the
