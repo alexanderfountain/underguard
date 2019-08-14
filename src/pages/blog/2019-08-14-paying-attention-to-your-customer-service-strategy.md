@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Paying Attention to Customer Service Strategy
+title: 'Developing a Customer Service Strategy, Part I'
 author: Kyle Hannah
 image: ''
 date: 2019-08-14T14:18:00.000Z
