@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 'Developing a Customer Service Strategy, Part I'
 author: Kyle Hannah
-image: ''
+image: /assets/definition-of-business-strategy.jpg
 date: 2019-08-14T14:18:00.000Z
 description: Four tips on ensuring your Customer Service Strategy is setup for Success
 tags:
