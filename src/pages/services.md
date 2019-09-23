@@ -7,7 +7,7 @@ content:
       - leftmarkdown: |-
           ## Call Center Services Designed for Your Business.
 
-          [Get A Free Quote](/contact)
+          [Get A Free Quote](/contact-us)
         rightmarkdown: '![Services](/assets/4icons.png "Services")'
         type: contentleftcontentright
     type: section
@@ -22,7 +22,7 @@ content:
           Capabilities to meet your Business needs.
 
 
-          [Contact Us](/contact)
+          [Contact Us](/contact-us)
         rightmarkdown: '![Megaphone](/assets/megaphone.png "Megaphone")'
         type: contentleftcontentright
     textcolor: technical
@@ -40,7 +40,7 @@ content:
           skilled in the tech support areas to serve your customer's.
 
 
-          [Contact Us](/contact)
+          [Contact Us](/contact-us)
         type: contentleftcontentright
     type: section
   - sectionid: chat
@@ -55,7 +55,7 @@ content:
           and to increase sales.
 
 
-          [Contact Us](/contact)
+          [Contact Us](/contact-us)
         rightmarkdown: '![live-chat](/assets/livechat.png "live-chat")'
         type: contentleftcontentright
     type: section
@@ -72,7 +72,7 @@ content:
           Approach can help revolutionize your call center outsourcing.
 
 
-          [Contact Us](/contact)
+          [Contact Us](/contact-us)
         type: contentleftcontentright
     type: section
 ---
