@@ -319,7 +319,7 @@ button{
 }
 #recent_blogs .blog-teaser{
   margin-bottom: 40px;
-  flex-basis: calc((100%)/3 - 14px);
+  flex-basis: calc((100%)/3 - 16px);
   margin-right: 20px;
 }
 @media (max-width: 800px){

@@ -12,6 +12,9 @@ const Nav = styled.nav`
 width:100%;
 .logo{
   max-width:175px;
+  img{
+    width:100%;
+  }
 }
   ul{
     margin:0px;
