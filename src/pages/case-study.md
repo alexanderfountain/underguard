@@ -14,12 +14,12 @@ content:
           the very next day.
 
 
-          [Download PDF](http://www.google.com)
+          [Download PDF](/assets/Case-Study-quick-launch-refinery.pdf)
         rightmarkdown: '![](/assets/quick.png)'
         type: contentleftcontentright
     type: section
   - sectionvalue:
-      - leftmarkdown: "## Health and Beauty Company \rreduces the annual \rbudget by 18%\r\n\nIn this case study a client of Underguard is able to save over 18% annually on it’s call centeroutsourcing budget and improve it’s customer satisfaction!\n\n[Download PDF](http://www.google.com)"
+      - leftmarkdown: "## Health and Beauty Company \rreduces the annual \rbudget by 18%\r\n\nIn this case study a client of Underguard is able to save over 18% annually on it’s call centeroutsourcing budget and improve it’s customer satisfaction!\n\n[Download PDF](/assets/Case-Study-health-and-beauty-increase-in-ROI.pdf)"
         rightmarkdown: '![](/assets/health.png)'
         type: contentleftcontentright
     type: section
