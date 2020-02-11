@@ -18,7 +18,7 @@ content:
 
           Ripley TN 38063
 
-          763-250-7432
+          763-742-2022
         type: form
     type: section
 ---
