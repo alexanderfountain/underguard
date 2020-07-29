@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How to Cope with the Increase in Demand for eCommerce
 author: Alex Fountain
-date: 2020-07-29T15:41:38.336Z
+date: 2020-07-24T18:37:00.000Z
 description: >-
   Read more about the best call center outsourcing solutions for your business
   and use the pandemic to grow your business. 
