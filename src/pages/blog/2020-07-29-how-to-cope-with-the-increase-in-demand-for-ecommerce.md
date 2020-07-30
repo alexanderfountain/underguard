@@ -11,8 +11,6 @@ tags:
   - ecommerce call center
   - ecommerce customer service outsourcing
 ---
-<!--StartFragment-->
-
 The virus has put many countries into lockdown. Since people can't go out shopping, many of them started resorting to online shopping. The considerable increase in demand has created complete chaos on the market. The giant companies like Amazon and eBay are struggling to complete all orders, even though they have tens of thousands of workers. Some small local businesses have absolutely exploded, and the trend of online shopping has resulted in a massive overflow of orders.
 
 That has led to several different problems that can only be solved by outsourcing e-commerce customer service. But where can you [outsource eCommerce customer service](https://www.ugteleservices.com/blog/2019-06-19-call-center-outsourcing/)? Who can you trust to take care of your customers? These are some of the questions we'll answer in this article.
@@ -66,7 +64,3 @@ If support experts handle all communication with customers with the right inform
 The bottom line is that you need to hire a professional eCommerce call center to increase the number of orders you can take, and make sure that every customer gets the help they need. We offer all kinds of custom call center solutions for almost any type of business out there. You can read more about call center outsourcing in [this article](https://www.ugteleservices.com/blog/2019-01-27-key-factors-with-contact-center-outsourcing-part-ii/).
 
 Trust us and our teams of trained support agents will improve your service quality and help you cope with the increased demand following the COVID-19 outbreak. Stay home, stay safe, and let us take care of your customers!
-
-
-
-<!--EndFragment-->
