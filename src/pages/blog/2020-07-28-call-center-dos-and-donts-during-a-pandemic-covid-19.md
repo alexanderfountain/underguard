@@ -12,8 +12,6 @@ tags:
   - call centers equipped to handle Covid-19
   - outsourcing your business process during Covid-19
 ---
-<!--StartFragment-->
-
 COVID-19 has disrupted every business around the world, forcing many even to shut their doors permanently. Millions of people who aren’t battling the coronavirus on the front lines are now working from home.
 
 However, in many countries, call center agents are still working from the office. They’re inside hotbeds for the spread of COVID-19, so what can call center managers do to prevent the spread?
@@ -101,7 +99,3 @@ Underground Teleservices can provide you with top-notch solutions for [outsourci
 Our highly-skilled and extensively-trained call center operators pack years of experience in the field. They serve customers with incredible commitment, dedication, empathy, and professionalism.
 
 Contact us today if you need any help with managing your call center – we’ll be more than happy to help!
-
-
-
-<!--EndFragment-->
