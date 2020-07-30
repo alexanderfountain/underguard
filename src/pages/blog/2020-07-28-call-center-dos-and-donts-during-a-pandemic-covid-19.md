@@ -2,11 +2,10 @@
 templateKey: blog-post
 title: Call Center Do's and Don'ts During a Pandemic (Covid-19)
 author: Kyle Hannah
-image: assets/blog image.png
+image: assets/virtual-agents.jpg
 date: 2020-07-13T15:28:00.000Z
-description: >-
-  Managing a call center during COVID-19 can be quite challenging. Check out how
-  to minimize call center health issues.
+description: Managing a call center during COVID-19 can be quite challenging.
+  Check out how to minimize call center health issues.
 tags:
   - Covid-19
   - call center open during pandemic
