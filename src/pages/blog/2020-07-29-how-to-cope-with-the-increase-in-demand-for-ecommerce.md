@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How to Cope with the Increase in Demand for eCommerce
 author: Kyle Hannah
-image: assets/virtual-agents.jpg
+image: /assets/virtual-agents.jpg
 date: 2020-07-24T18:37:00.000Z
 description: "Read more about the best call center outsourcing solutions for
   your business and use the pandemic to grow your business. "
