@@ -40,7 +40,7 @@ Many companies are even looking at remote work as a permanent solution for the f
 
 Other businesses are certainly considering the shift, too, since it brings some excellent benefits.
 
-According to a[Global Workplace Analytics report](https://www.itllc.net/business/save-11000-annually-for-each-telecommuting-employee/), businesses can save $11,000 annually per each remote employee. Employees can save $2,000-$7,000 a year when working remotely.
+According to a [Global Workplace Analytics report](https://www.itllc.net/business/save-11000-annually-for-each-telecommuting-employee/), businesses can save $11,000 annually per each remote employee. Employees can save $2,000-$7,000 a year when working remotely.
 
 ## Not All Hope Is Lost
 
