@@ -11,7 +11,7 @@ tags:
   - ecommerce call center
   - ecommerce customer service outsourcing
 ---
-The virus has put many countries into lockdown. Since people can't go out shopping, many of them started resorting to online shopping. The considerable increase in demand has created complete chaos on the market. The giant companies like Amazon and eBay are struggling to complete all orders, even though they have tens of thousands of workers. Some small local businesses have absolutely exploded, and the trend of online shopping has resulted in a massive overflow of orders.
+The virus has put many countries into lockdown. Since people can't go out shopping, many people have resorted to online retail. The considerable increase in demand has created chaos on the supply chain market. The behemoth companies like Amazon and eBay are struggling to complete all orders, even with the thousands of workers they employ. Some small local businesses have absolutely exploded, and the trend of online shopping has resulted in a massive order flow.
 
 That has led to several different problems that can only be solved by outsourcing e-commerce customer service. But where can you [outsource eCommerce customer service](https://www.ugteleservices.com/blog/2019-06-19-call-center-outsourcing/)? Who can you trust to take care of your customers? These are some of the questions we'll answer in this article.
 
