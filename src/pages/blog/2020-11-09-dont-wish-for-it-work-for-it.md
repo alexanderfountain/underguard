@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Don't Wish for It - Work for It!
 author: Mark Golder
-image: assets/virtual-agents.jpg
+image: /assets/virtual-agents.jpg
 date: 2020-11-06T21:48:00.000Z
 description: "**Relationships, Heart and Attitude.**"
 tags:

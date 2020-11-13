@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Tennessee - My New Home
 author: Kelly Hannah
-image: assets/definition-of-business-strategy.jpg
+image: /assets/definition-of-business-strategy.jpg
 date: 2020-11-02T20:20:00.000Z
 description: To the land of the Volunteers, Country Music and Graceland here we come.
 tags:
