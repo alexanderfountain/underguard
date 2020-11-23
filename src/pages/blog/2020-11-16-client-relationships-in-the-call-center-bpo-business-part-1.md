@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Client Relationships in the Call Center BPO Business - Part 1
 author: Mark Golder
-image: /assets/achievement-adult-agreement-327540.jpg
+image: /assets/client-agency-relationship.jpg
 date: 2020-11-13T21:45:00.000Z
 description: An article discussing the high value of building deep client
   relationships in the BPO business.
