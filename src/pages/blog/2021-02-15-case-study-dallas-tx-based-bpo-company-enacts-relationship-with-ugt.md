@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Case Study: Dallas TX based BPO company enacts relationship with UGT"
 author: Kyle Hannah
-image: /assets/definition-of-business-strategy.jpg
+image: /assets/case-study.jpeg
 date: 2021-02-02T16:13:00.000Z
 description: A Call Center Outsourcing company located in the DFW area was
   experiencing rapid growth with a client and failing to meet SLA's. The client
