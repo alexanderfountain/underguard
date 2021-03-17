@@ -5,41 +5,42 @@ module.exports = {
     siteUrl: `https://staging.underguard.netlify.com`,
     author: `@alexanderfountain`,
     logo: `/src/images/logo_no_comp.png`,
-    menuLinks:[
+    menuLinks: [
       {
-         name:'services',
-         link:'/services'
+        name: 'services',
+        link: '/services',
       },
       {
-         name:'industries',
-         link:'/industries'
+        name: 'industries',
+        link: '/industries',
       },
       {
-        name:'about us',
-        link:'/about-us'
+        name: 'about us',
+        link: '/about-us',
       },
       {
-        name:'case study',
-        link:'/case-study'
+        name: 'case study',
+        link: '/case-study',
       },
       {
-        name:'blog',
-        link:'/blog'
+        name: 'blog',
+        link: '/blog',
       },
       {
-        name:'contact',
-        link:'/contact-us'
-      }
+        name: 'contact',
+        link: '/contact-us',
+      },
     ],
   },
   plugins: [
+    'gatsby-plugin-postcss',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets`,
-        name: `assets`
-      }
+        name: `assets`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -60,9 +61,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-135478763-1",
+        trackingId: 'UA-135478763-1',
         // Avoids sending pageview hits from custom paths
-        exclude: ["/admin/**"],
+        exclude: ['/admin/**'],
       },
     },
     {
@@ -110,9 +111,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Montserrat\:300,400,400i,700`,
-        ]
+        fonts: [`Montserrat\:300,400,400i,700`],
       },
     },
     `gatsby-v2-plugin-page-transitions`,
@@ -121,7 +120,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`, // make sure to keep it last in the array
-    
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
