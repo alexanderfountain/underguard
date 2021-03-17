@@ -1,5 +1,5 @@
-const remark = require('remark');
-const remarkHTML = require('remark-html');
+const remark = require('remark')
+const remarkHTML = require('remark-html')
 const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
@@ -29,14 +29,19 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
+    // console.log('result')
+    // console.log(result)
+
     const posts = result.data.allMarkdownRemark.edges
 
     posts.forEach(edge => {
       const id = edge.node.id
+      console.log('edge')
+      console.log(edge.node.frontmatter.templateKey)
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`,
         ),
         // additional data can be passed via context
         context: {
@@ -67,7 +72,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
           if (backgroundimage.indexOf('/img') === 0) {
             frontmatter.content.backgroundimage = path.relative(
               path.dirname(node.fileAbsolutePath),
-              path.join(__dirname, '/static', backgroundimage)
+              path.join(__dirname, '/static', backgroundimage),
             )
           }
         }

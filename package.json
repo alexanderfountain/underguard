@@ -36,6 +36,7 @@
     "gatsby-transformer-sharp": "^2.5.12",
     "gatsby-v2-plugin-page-transitions": "^1.0.0",
     "glamor": "^2.20.40",
+    "howler": "^2.2.1",
     "lodash": "^4.17.19",
     "netlify-cms": "^2.10.55",
     "node-sass": "^4.14.1",
