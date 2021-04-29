@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Underguard launches Work from Home Division
 author: Kyle Hannah
+image: /assets/work-from-home-like-a-pro.jpg
 date: 2020-03-16T15:43:00.000Z
 description: In March of 2020 Underguard launches it's work from home division
   to provide opportunities to formerly incarcerated citizens.
